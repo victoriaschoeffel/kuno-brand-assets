@@ -1,0 +1,6 @@
+master-palette=https://files.catbox.moe/y77wns.png
+edition-heidelberg=https://files.catbox.moe/mno03j.png
+edition-tegernsee=https://files.catbox.moe/gqg5yb.png
+edition-berlin-mitte=https://files.catbox.moe/e6refs.png
+horizontal-lockup=https://files.catbox.moe/cudl99.png
+recording-state=https://files.catbox.moe/r655ox.png

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 160" width="700" height="160">
+  <rect width="700" height="160" fill="#F4EFE6" rx="8"/>
+  <text x="20" y="32" font-family="system-ui,sans-serif" font-size="11" letter-spacing="2" fill="#7A736A" font-weight="500">RECORDING STATE · CANONICAL BRAND MOMENT</text>
+  <rect x="60" y="60" width="580" height="60" fill="rgba(255,255,255,0.9)" stroke="#D9D2C5" stroke-width="0.5" rx="30"/>
+  <circle cx="100" cy="90" r="14" fill="none" stroke="#B8945A" stroke-width="1.5"/>
+  <circle cx="100" cy="90" r="6" fill="#C84B3F"/>
+  <text x="130" y="85" font-family="system-ui,sans-serif" font-size="14" font-weight="500" fill="#1C1A17">Aufnahme</text>
+  <text x="130" y="103" font-family="ui-monospace,monospace" font-size="14" fill="#7A736A">00:14:23</text>
+  <text x="240" y="85" font-family="system-ui,sans-serif" font-size="11" letter-spacing="1" fill="#7A736A">VERSCHLÜSSELT</text>
+  <rect x="540" y="74" width="32" height="32" fill="none" stroke="#1C1A17" stroke-width="1.5" rx="6"/>
+  <rect x="552" y="82" width="3" height="16" fill="#1C1A17"/>
+  <rect x="557" y="82" width="3" height="16" fill="#1C1A17"/>
+  <rect x="588" y="74" width="32" height="32" fill="none" stroke="#1C1A17" stroke-width="1.5" rx="6"/>
+  <rect x="596" y="82" width="16" height="16" fill="#1C1A17" rx="2"/>
+  <text x="20" y="148" font-family="system-ui,sans-serif" font-size="11" fill="#7A736A">Warm Gold ring · pulsing red dot · 1.6s linear loop · tabular numerals · always-visible privacy badge</text>
+</svg>

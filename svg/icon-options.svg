@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <rect width="1200" height="900" fill="#F4EFE6"/>
+  <text x="40" y="44" font-family="system-ui,sans-serif" font-size="14" font-weight="500" letter-spacing="2" fill="#7A736A">KUNO · ICON DIRECTIONS</text>
+
+  <!-- A: Solid K -->
+  <g transform="translate(40, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">A — SOLID K MARK</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#1C1A17"/>
+    <text x="80" y="155" font-family="system-ui,sans-serif" font-size="100" font-weight="800" fill="#F4EFE6" text-anchor="middle">K</text>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Bold K cut from wordmark.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">App-icon-ready. Like Notion N.</text>
+  </g>
+
+  <!-- B: Debossed K -->
+  <g transform="translate(240, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">B — DEBOSSED K MARK</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="2"/>
+    <text x="80" y="155" font-family="system-ui,sans-serif" font-size="100" font-weight="800" fill="#1C1A17" text-anchor="middle">K</text>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Same K, paper background.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Most premium hardware feel.</text>
+  </g>
+
+  <!-- C: Recording dot -->
+  <g transform="translate(440, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">C — RECORDING DOT</text>
+    <circle cx="80" cy="120" r="74" fill="none" stroke="#B8945A" stroke-width="6"/>
+    <circle cx="80" cy="120" r="34" fill="#C84B3F"/>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Canonical recording-state.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Distinctive — only Kuno owns it.</text>
+  </g>
+
+  <!-- D: Open quote -->
+  <g transform="translate(640, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">D — OPEN QUOTE</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#1C1A17"/>
+    <text x="80" y="170" font-family="Georgia,serif" font-size="160" font-weight="800" fill="#F4EFE6" text-anchor="middle">"</text>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Conversation captured.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Fischer-anchored.</text>
+  </g>
+
+  <!-- E: Two-K -->
+  <g transform="translate(840, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">E — TWO-K MONOGRAM</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="2"/>
+    <text x="60" y="145" font-family="system-ui,sans-serif" font-size="80" font-weight="800" fill="#1C1A17" text-anchor="middle">K</text>
+    <g transform="translate(160, 145) scale(-1, 1)"><text x="60" y="0" font-family="system-ui,sans-serif" font-size="80" font-weight="800" fill="#1C1A17" text-anchor="middle">K</text></g>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">K + mirror-K. Most distinctive,</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">most decorative. Reserve for seal.</text>
+  </g>
+
+  <!-- F: Device silhouette -->
+  <g transform="translate(1040, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">F — DEVICE SILHOUETTE</text>
+    <rect x="40" y="40" width="80" height="160" rx="20" fill="none" stroke="#1C1A17" stroke-width="3"/>
+    <circle cx="98" cy="74" r="10" fill="#1C1A17"/>
+    <line x1="60" y1="170" x2="100" y2="170" stroke="#1C1A17" stroke-width="3"/>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Device silhouette as icon.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Apple-Watch convention.</text>
+  </g>
+
+  <!-- G: K with umlaut -->
+  <g transform="translate(40, 380)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">G — K WITH UMLAUT (NEW)</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#1C1A17"/>
+    <circle cx="58" cy="78" r="6" fill="#B8945A"/>
+    <circle cx="100" cy="78" r="6" fill="#B8945A"/>
+    <text x="80" y="175" font-family="system-ui,sans-serif" font-size="100" font-weight="800" fill="#F4EFE6" text-anchor="middle">K</text>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">K with umlaut dots in Warm Gold.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">German wink + voice/sound dot.</text>
+  </g>
+
+  <!-- Stacked identity -->
+  <g transform="translate(440, 460)">
+    <text x="160" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A" text-anchor="middle">STACKED IDENTITY · "KUNO + SQUAREY THING BELOW"</text>
+    <rect x="0" y="40" width="320" height="280" rx="20" fill="#FFFFFF" stroke="#D9D2C5" stroke-width="1"/>
+    <text x="160" y="140" font-family="system-ui,sans-serif" font-size="50" font-weight="800" letter-spacing="9" fill="#1C1A17" text-anchor="middle">KUNO</text>
+    <rect x="120" y="180" width="80" height="80" rx="16" fill="#1C1A17"/>
+    <text x="160" y="240" font-family="system-ui,sans-serif" font-size="50" font-weight="800" fill="#F4EFE6" text-anchor="middle">K</text>
+    <text x="160" y="350" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F" text-anchor="middle">Wordmark + K-mark stacked.</text>
+    <text x="160" y="370" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F" text-anchor="middle">Packaging hero, business-card centre, About-page seal.</text>
+  </g>
+
+  <!-- Recommendation -->
+  <g transform="translate(40, 770)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13" font-weight="500" letter-spacing="1.5" fill="#7A736A">RECOMMENDATION</text>
+    <text x="0" y="30" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">Primary icon = B (debossed K) for app icon, favicon, social avatar, business card. The "Kuno seal."</text>
+    <text x="0" y="54" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">Secondary mark = C (recording dot) for in-product use, ad creative when emphasizing the action of recording.</text>
+    <text x="0" y="78" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">Stacked identity (KUNO + K-mark) for packaging hero, About page seal, gift-box embossing.</text>
+    <text x="0" y="102" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">G (K + umlaut) is the wildcard — most German, most distinctive — keep on the table for v0.7 review.</text>
+  </g>
+</svg>
