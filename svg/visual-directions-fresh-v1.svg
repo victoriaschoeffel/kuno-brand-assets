@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1120" width="1200" height="1120">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .eyebrow { font-size: 11px; font-weight: 650; letter-spacing: 1.7px; fill: #7A736A; }
+      .body { font-size: 15px; font-weight: 450; fill: #1C1A17; }
+      .small { font-size: 11px; font-weight: 520; fill: #7A736A; }
+      .muted { fill: #7A736A; }
+      .h1 { font-size: 58px; line-height: 1; font-weight: 720; letter-spacing: -1px; fill: #1C1A17; }
+      .h2 { font-size: 32px; font-weight: 650; letter-spacing: -0.3px; fill: #1C1A17; }
+      .word { font-size: 28px; font-weight: 800; letter-spacing: 5px; fill: #1C1A17; }
+    </style>
+
+    <symbol id="segment-k" viewBox="0 0 160 160">
+      <rect width="160" height="160" rx="30" fill="#1C1A17"/>
+      <line x1="55" y1="44" x2="55" y2="116" stroke="#F4EFE6" stroke-width="16" stroke-linecap="round"/>
+      <line x1="61" y1="80" x2="105" y2="45" stroke="#F4EFE6" stroke-width="16" stroke-linecap="round"/>
+      <line x1="61" y1="80" x2="108" y2="116" stroke="#F4EFE6" stroke-width="16" stroke-linecap="round"/>
+      <line x1="116" y1="44" x2="116" y2="116" stroke="#B8945A" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="window-k" viewBox="0 0 160 160">
+      <rect width="160" height="160" rx="30" fill="#F4EFE6" stroke="#1C1A17" stroke-width="3"/>
+      <rect x="34" y="34" width="22" height="22" rx="4" fill="#E6DFD2"/>
+      <rect x="104" y="34" width="22" height="22" rx="4" fill="#E6DFD2"/>
+      <rect x="34" y="104" width="22" height="22" rx="4" fill="#E6DFD2"/>
+      <rect x="104" y="104" width="22" height="22" rx="4" fill="#E6DFD2"/>
+      <text x="80" y="106" font-size="78" font-weight="760" fill="#1C1A17" text-anchor="middle">K</text>
+      <line x1="48" y1="128" x2="112" y2="128" stroke="#B8945A" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="control-k" viewBox="0 0 160 160">
+      <rect width="160" height="160" rx="30" fill="#1C1A17"/>
+      <rect x="28" y="44" width="104" height="72" rx="36" fill="#F4EFE6"/>
+      <circle cx="58" cy="80" r="20" fill="#E6DFD2"/>
+      <text x="62" y="100" font-size="58" font-weight="820" fill="#1C1A17" text-anchor="middle">K</text>
+      <line x1="91" y1="72" x2="119" y2="72" stroke="#B8945A" stroke-width="5" stroke-linecap="round"/>
+      <line x1="91" y1="88" x2="111" y2="88" stroke="#7A736A" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+
+  <rect width="1200" height="1120" fill="#F4EFE6"/>
+
+  <g transform="translate(48,42)">
+    <text class="eyebrow" x="0" y="0">KUNO - FRESH VISUAL DIRECTIONS v1</text>
+    <text class="small" x="0" y="28">Editorial scale, quiet confidence, light UI surfaces, wide media strip, simple pictograms.</text>
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(48,92)">
+    <text class="word" x="0" y="34">KUNO</text>
+    <text class="small" x="180" y="31">For thinkers</text>
+    <text class="small" x="320" y="31">For clinicians</text>
+    <text class="small" x="470" y="31">For founders</text>
+    <rect x="920" y="0" width="174" height="42" rx="21" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+    <text x="1007" y="27" text-anchor="middle" font-size="14" font-weight="650" fill="#1C1A17">Designed in Munich</text>
+  </g>
+
+  <!-- Hero -->
+  <g transform="translate(126,196)">
+    <text class="h1" x="0" y="0">AI in the real moment.</text>
+    <text class="h1 muted" x="0" y="68">For people who think in conversations.</text>
+  </g>
+
+  <!-- Wide media strip translated to product language -->
+  <g transform="translate(48,342)">
+    <rect x="0" y="0" width="1104" height="230" rx="18" fill="#E6DFD2"/>
+    <rect x="24" y="24" width="1056" height="182" rx="16" fill="#F4EFE6"/>
+    <g transform="translate(70,48)">
+      <rect x="0" y="0" width="96" height="136" rx="24" fill="#1C1A17"/>
+      <circle cx="48" cy="42" r="17" fill="#B8945A"/>
+      <line x1="31" y1="96" x2="65" y2="96" stroke="#F4EFE6" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(232,48)">
+      <rect x="0" y="0" width="96" height="136" rx="24" fill="#F4EFE6" stroke="#1C1A17" stroke-width="3"/>
+      <circle cx="48" cy="42" r="17" fill="#E6DFD2" stroke="#B8945A" stroke-width="3"/>
+      <line x1="31" y1="96" x2="65" y2="96" stroke="#1C1A17" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(394,48)">
+      <rect x="0" y="0" width="96" height="136" rx="24" fill="#1C1A17"/>
+      <circle cx="48" cy="42" r="17" fill="#F4EFE6"/>
+      <line x1="31" y1="96" x2="65" y2="96" stroke="#B8945A" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(588,58)">
+      <text class="eyebrow" x="0" y="0">LIVE PRODUCT LANGUAGE</text>
+      <text class="body" x="0" y="34">A lighter, cleaner Kuno surface can still feel premium.</text>
+      <text class="small" x="0" y="62">Use wide strips, simple product silhouettes, and app controls instead of seals.</text>
+      <rect x="0" y="96" width="350" height="52" rx="18" fill="#1C1A17"/>
+      <circle cx="29" cy="122" r="7" fill="#B8945A"/>
+      <text x="52" y="127" font-size="15" font-weight="620" fill="#F4EFE6">Bereit</text>
+      <rect x="146" y="119" width="124" height="6" rx="3" fill="#7A736A"/>
+      <rect x="146" y="119" width="54" height="6" rx="3" fill="#B8945A"/>
+      <rect x="286" y="106" width="50" height="32" rx="16" fill="#F4EFE6"/>
+      <text x="311" y="127" font-size="13" font-weight="720" fill="#1C1A17" text-anchor="middle">Start</text>
+    </g>
+  </g>
+
+  <!-- Direction cards -->
+  <g transform="translate(48,636)">
+    <text class="eyebrow" x="0" y="0">SYMBOL DIRECTIONS - FRESHER THAN v4</text>
+
+    <g transform="translate(0,34)">
+      <rect x="0" y="0" width="344" height="258" rx="18" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+      <use href="#segment-k" x="28" y="26" width="126" height="126"/>
+      <text class="h2" x="184" y="70">A</text>
+      <text class="body" x="184" y="104">Segment K</text>
+      <text class="small" x="184" y="132">Most digital. Strongest at small size.</text>
+      <use href="#segment-k" x="28" y="178" width="48" height="48"/>
+      <use href="#segment-k" x="90" y="186" width="32" height="32"/>
+      <use href="#segment-k" x="136" y="194" width="16" height="16"/>
+    </g>
+
+    <g transform="translate(380,34)">
+      <rect x="0" y="0" width="344" height="258" rx="18" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+      <use href="#window-k" x="28" y="26" width="126" height="126"/>
+      <text class="h2" x="184" y="70">B</text>
+      <text class="body" x="184" y="104">Window K</text>
+      <text class="small" x="184" y="132">European and architectural, not antique.</text>
+      <use href="#window-k" x="28" y="178" width="48" height="48"/>
+      <use href="#window-k" x="90" y="186" width="32" height="32"/>
+      <use href="#window-k" x="136" y="194" width="16" height="16"/>
+    </g>
+
+    <g transform="translate(760,34)">
+      <rect x="0" y="0" width="344" height="258" rx="18" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+      <use href="#control-k" x="28" y="26" width="126" height="126"/>
+      <text class="h2" x="184" y="70">C</text>
+      <text class="body" x="184" y="104">Control K</text>
+      <text class="small" x="184" y="132">Best bridge between device and app UI.</text>
+      <use href="#control-k" x="28" y="178" width="48" height="48"/>
+      <use href="#control-k" x="90" y="186" width="32" height="32"/>
+      <use href="#control-k" x="136" y="194" width="16" height="16"/>
+    </g>
+  </g>
+
+  <!-- Recommendation -->
+  <g transform="translate(48,970)">
+    <rect x="0" y="0" width="1104" height="98" rx="18" fill="#1C1A17"/>
+    <text class="eyebrow" x="28" y="34" fill="#B8945A">RECOMMENDATION</text>
+    <text x="28" y="64" font-size="16" font-weight="520" fill="#F4EFE6">Move the fresh lane forward with A Segment K for app/icon tests, C Control K for product UI, and the wide strip treatment for web and launch decks.</text>
+    <text x="28" y="86" font-size="12" font-weight="520" fill="#7A736A">Keep M wax seal from v4 only for rare Heidelberg print moments. It should no longer define the master visual direction.</text>
+  </g>
+</svg>
