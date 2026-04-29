@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1420" width="1200" height="1420">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .eyebrow { font-size: 11px; font-weight: 680; letter-spacing: 1.9px; fill: #7A736A; }
+      .caption { font-size: 12px; font-weight: 520; fill: #7A736A; }
+      .body { font-size: 15px; font-weight: 450; fill: #1C1A17; }
+      .title { font-size: 58px; font-weight: 760; letter-spacing: -1px; fill: #1C1A17; }
+      .h2 { font-size: 27px; font-weight: 680; letter-spacing: -0.2px; fill: #1C1A17; }
+      .word { font-size: 30px; font-weight: 820; letter-spacing: 5px; fill: #1C1A17; }
+      .mono { font-size: 12px; font-weight: 620; letter-spacing: 0.5px; fill: #7A736A; }
+    </style>
+
+    <symbol id="signal-k-dark" viewBox="0 0 220 220">
+      <rect width="220" height="220" rx="44" fill="#1C1A17"/>
+      <rect x="48" y="42" width="26" height="136" rx="13" fill="#F4EFE6"/>
+      <rect x="88" y="76" width="20" height="68" rx="10" fill="#D4C39D"/>
+      <rect x="120" y="55" width="20" height="52" rx="10" fill="#F4EFE6"/>
+      <rect x="152" y="36" width="20" height="38" rx="10" fill="#A7A19A"/>
+      <rect x="120" y="113" width="20" height="52" rx="10" fill="#F4EFE6"/>
+      <rect x="152" y="146" width="20" height="38" rx="10" fill="#A7A19A"/>
+    </symbol>
+
+    <symbol id="signal-k-paper" viewBox="0 0 220 220">
+      <rect width="220" height="220" rx="44" fill="#F4EFE6" stroke="#1C1A17" stroke-width="4"/>
+      <rect x="48" y="42" width="26" height="136" rx="13" fill="#1C1A17"/>
+      <rect x="88" y="76" width="20" height="68" rx="10" fill="#C7B06F"/>
+      <rect x="120" y="55" width="20" height="52" rx="10" fill="#1C1A17"/>
+      <rect x="152" y="36" width="20" height="38" rx="10" fill="#7A736A"/>
+      <rect x="120" y="113" width="20" height="52" rx="10" fill="#1C1A17"/>
+      <rect x="152" y="146" width="20" height="38" rx="10" fill="#7A736A"/>
+    </symbol>
+
+    <symbol id="button-k" viewBox="0 0 320 150">
+      <rect width="320" height="150" rx="48" fill="#1C1A17"/>
+      <rect x="61" y="35" width="20" height="80" rx="10" fill="#F4EFE6"/>
+      <rect x="103" y="55" width="16" height="40" rx="8" fill="#D4C39D"/>
+      <rect x="132" y="42" width="16" height="31" rx="8" fill="#F4EFE6"/>
+      <rect x="161" y="31" width="16" height="23" rx="8" fill="#A7A19A"/>
+      <rect x="132" y="77" width="16" height="31" rx="8" fill="#F4EFE6"/>
+      <rect x="161" y="96" width="16" height="23" rx="8" fill="#A7A19A"/>
+      <text x="215" y="82" font-size="16" font-weight="680" fill="#F4EFE6">KUNO</text>
+    </symbol>
+  </defs>
+
+  <rect width="1200" height="1420" fill="#F4EFE6"/>
+
+  <g transform="translate(48,42)">
+    <text class="eyebrow" x="0" y="0">KUNO - SIGNAL K MOTION v1</text>
+    <text class="caption" x="0" y="28">Signal bars become a K. Motion is for recording and capture states only.</text>
+  </g>
+
+  <g transform="translate(48,112)">
+    <text class="word" x="0" y="30">KUNO</text>
+    <rect x="906" y="0" width="198" height="42" rx="21" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+    <text x="1005" y="27" text-anchor="middle" font-size="14" font-weight="650" fill="#1C1A17">AI in the real moment</text>
+  </g>
+
+  <g transform="translate(88,204)">
+    <text class="title" x="0" y="0">A signal that keeps the K.</text>
+    <text class="title" x="0" y="68" fill="#7A736A">Alive in use. Still at rest.</text>
+  </g>
+
+  <g transform="translate(48,332)">
+    <rect x="0" y="0" width="1104" height="332" rx="22" fill="#E6DFD2"/>
+    <rect x="28" y="28" width="1048" height="276" rx="18" fill="#F4EFE6"/>
+    <g transform="translate(78,62)">
+      <use href="#signal-k-dark" width="208" height="208"/>
+    </g>
+    <g transform="translate(370,76)">
+      <text class="eyebrow" x="0" y="0">OWNABLE DIFFERENCE FROM GENERIC VOICE BARS</text>
+      <text class="body" x="0" y="42">The left spine never moves. The animated bars form the two arms of K.</text>
+      <text class="body" x="0" y="72">It can breathe like audio, but it should never collapse into five loose bars.</text>
+      <g transform="translate(0,122)">
+        <rect x="0" y="0" width="456" height="68" rx="24" fill="#1C1A17"/>
+        <rect x="28" y="17" width="10" height="34" rx="5" fill="#F4EFE6"/>
+        <rect x="52" y="24" width="8" height="20" rx="4" fill="#D4C39D"/>
+        <rect x="74" y="15" width="8" height="16" rx="4" fill="#F4EFE6"/>
+        <rect x="96" y="10" width="8" height="12" rx="4" fill="#A7A19A"/>
+        <rect x="74" y="37" width="8" height="16" rx="4" fill="#F4EFE6"/>
+        <rect x="96" y="46" width="8" height="12" rx="4" fill="#A7A19A"/>
+        <text x="138" y="43" font-size="15" font-weight="680" fill="#F4EFE6">Recording thought</text>
+        <circle cx="416" cy="34" r="12" fill="#D4C39D"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(48,734)">
+    <text class="eyebrow" x="0" y="0">THREE MARK TREATMENTS</text>
+    <g transform="translate(0,34)">
+      <rect x="0" y="0" width="340" height="248" rx="18" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+      <use href="#signal-k-dark" x="42" y="28" width="136" height="136"/>
+      <text class="h2" x="214" y="74">A</text>
+      <text class="body" x="42" y="194">Dark app icon</text>
+      <text class="caption" x="42" y="218">Best for App Store, dock, favicon.</text>
+    </g>
+    <g transform="translate(382,34)">
+      <rect x="0" y="0" width="340" height="248" rx="18" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+      <use href="#signal-k-paper" x="42" y="28" width="136" height="136"/>
+      <text class="h2" x="214" y="74">B</text>
+      <text class="body" x="42" y="194">Paper mark</text>
+      <text class="caption" x="42" y="218">Best on device, packaging, cards.</text>
+    </g>
+    <g transform="translate(764,34)">
+      <rect x="0" y="0" width="340" height="248" rx="18" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+      <use href="#button-k" x="35" y="50" width="270" height="126"/>
+      <text class="h2" x="214" y="74">C</text>
+      <text class="body" x="42" y="194">Button lockup</text>
+      <text class="caption" x="42" y="218">Best for capture control and hardware UI.</text>
+    </g>
+  </g>
+
+  <g transform="translate(48,1044)">
+    <text class="eyebrow" x="0" y="0">1.6s RECORDING-STATE MOTION STORYBOARD</text>
+    <g transform="translate(0,34)">
+      <rect x="0" y="0" width="256" height="192" rx="18" fill="#E6DFD2"/>
+      <rect x="32" y="42" width="28" height="108" rx="14" fill="#1C1A17"/>
+      <rect x="86" y="75" width="18" height="42" rx="9" fill="#C7B06F"/>
+      <rect x="120" y="64" width="18" height="32" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="55" width="18" height="24" rx="9" fill="#7A736A"/>
+      <rect x="120" y="100" width="18" height="32" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="113" width="18" height="24" rx="9" fill="#7A736A"/>
+      <text class="mono" x="32" y="170">0ms - idle inhale</text>
+    </g>
+    <g transform="translate(282,34)">
+      <rect x="0" y="0" width="256" height="192" rx="18" fill="#E6DFD2"/>
+      <rect x="32" y="42" width="28" height="108" rx="14" fill="#1C1A17"/>
+      <rect x="86" y="65" width="18" height="62" rx="9" fill="#C7B06F"/>
+      <rect x="120" y="52" width="18" height="48" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="42" width="18" height="36" rx="9" fill="#7A736A"/>
+      <rect x="120" y="92" width="18" height="48" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="114" width="18" height="36" rx="9" fill="#7A736A"/>
+      <text class="mono" x="32" y="170">400ms - speech enters</text>
+    </g>
+    <g transform="translate(564,34)">
+      <rect x="0" y="0" width="256" height="192" rx="18" fill="#E6DFD2"/>
+      <rect x="32" y="42" width="28" height="108" rx="14" fill="#1C1A17"/>
+      <rect x="86" y="57" width="18" height="78" rx="9" fill="#C7B06F"/>
+      <rect x="120" y="42" width="18" height="60" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="33" width="18" height="46" rx="9" fill="#7A736A"/>
+      <rect x="120" y="90" width="18" height="60" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="113" width="18" height="46" rx="9" fill="#7A736A"/>
+      <text class="mono" x="32" y="170">800ms - full signal</text>
+    </g>
+    <g transform="translate(846,34)">
+      <rect x="0" y="0" width="256" height="192" rx="18" fill="#E6DFD2"/>
+      <rect x="32" y="42" width="28" height="108" rx="14" fill="#1C1A17"/>
+      <rect x="86" y="68" width="18" height="56" rx="9" fill="#C7B06F"/>
+      <rect x="120" y="58" width="18" height="42" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="50" width="18" height="30" rx="9" fill="#7A736A"/>
+      <rect x="120" y="94" width="18" height="42" rx="9" fill="#1C1A17"/>
+      <rect x="154" y="112" width="18" height="30" rx="9" fill="#7A736A"/>
+      <text class="mono" x="32" y="170">1200ms - resolves</text>
+    </g>
+  </g>
+
+  <g transform="translate(48,1300)">
+    <text class="eyebrow" x="0" y="0">SCALE CHECK</text>
+    <g transform="translate(0,30)">
+      <rect x="0" y="0" width="1104" height="72" rx="18" fill="#F4EFE6" stroke="#E6DFD2" stroke-width="2"/>
+      <use href="#signal-k-dark" x="28" y="12" width="48" height="48"/>
+      <use href="#signal-k-dark" x="104" y="20" width="32" height="32"/>
+      <use href="#signal-k-dark" x="164" y="28" width="16" height="16"/>
+      <text class="caption" x="220" y="43">At 16px the K spine remains the first read; the moving bars reduce to signal texture.</text>
+      <rect x="780" y="16" width="282" height="40" rx="20" fill="#E6DFD2"/>
+      <text x="921" y="41" text-anchor="middle" font-size="13" font-weight="650" fill="#1C1A17">HTML motion preview: signal-k-motion-v1.html</text>
+    </g>
+  </g>
+</svg>

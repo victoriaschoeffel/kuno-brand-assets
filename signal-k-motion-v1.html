@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kuno Signal K Motion v1</title>
+  <style>
+    :root {
+      --paper: #F4EFE6;
+      --ink: #1C1A17;
+      --quiet: #E6DFD2;
+      --stone: #7A736A;
+      --champagne: #D4C39D;
+      --brass: #C7B06F;
+      --nickel: #A7A19A;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      width: min(1120px, calc(100vw - 48px));
+      min-height: min(720px, calc(100vh - 48px));
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 28px;
+    }
+
+    header,
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      color: var(--stone);
+      font-size: 12px;
+      font-weight: 650;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+    .wordmark {
+      color: var(--ink);
+      font-size: 28px;
+      font-weight: 820;
+      letter-spacing: 5px;
+    }
+
+    .stage {
+      border-radius: 28px;
+      background: var(--quiet);
+      display: grid;
+      grid-template-columns: minmax(280px, 0.8fr) minmax(360px, 1fr);
+      align-items: center;
+      gap: 48px;
+      padding: clamp(32px, 6vw, 76px);
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 560px;
+      font-size: clamp(48px, 7vw, 88px);
+      line-height: 0.96;
+      letter-spacing: -1px;
+      font-weight: 780;
+    }
+
+    p {
+      margin: 22px 0 0;
+      max-width: 440px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: var(--stone);
+      font-weight: 500;
+    }
+
+    .demo {
+      aspect-ratio: 1;
+      width: min(390px, 100%);
+      justify-self: center;
+      border-radius: 76px;
+      background: var(--ink);
+      position: relative;
+      box-shadow: 0 34px 70px rgba(28, 26, 23, 0.14);
+    }
+
+    .bar {
+      position: absolute;
+      border-radius: 999px;
+      transform-origin: center;
+      animation-duration: 1.6s;
+      animation-timing-function: cubic-bezier(.2, .72, .2, 1);
+      animation-iteration-count: infinite;
+      will-change: transform;
+    }
+
+    .spine {
+      left: 78px;
+      top: 78px;
+      width: 40px;
+      height: 234px;
+      background: var(--paper);
+    }
+
+    .core {
+      left: 154px;
+      top: 142px;
+      width: 30px;
+      height: 106px;
+      background: var(--champagne);
+      animation-name: core;
+    }
+
+    .upper-mid {
+      left: 214px;
+      top: 102px;
+      width: 30px;
+      height: 86px;
+      background: var(--paper);
+      animation-name: upperMid;
+      animation-delay: .08s;
+    }
+
+    .upper-tip {
+      left: 274px;
+      top: 72px;
+      width: 30px;
+      height: 62px;
+      background: var(--nickel);
+      animation-name: upperTip;
+      animation-delay: .16s;
+    }
+
+    .lower-mid {
+      left: 214px;
+      top: 202px;
+      width: 30px;
+      height: 86px;
+      background: var(--paper);
+      animation-name: lowerMid;
+      animation-delay: .08s;
+    }
+
+    .lower-tip {
+      left: 274px;
+      top: 256px;
+      width: 30px;
+      height: 62px;
+      background: var(--nickel);
+      animation-name: lowerTip;
+      animation-delay: .16s;
+    }
+
+    .label {
+      position: absolute;
+      left: 50%;
+      bottom: -58px;
+      transform: translateX(-50%);
+      color: var(--stone);
+      font-size: 13px;
+      font-weight: 650;
+      letter-spacing: .4px;
+      white-space: nowrap;
+    }
+
+    @keyframes core {
+      0%, 100% { transform: scaleY(.62); }
+      34% { transform: scaleY(1.05); }
+      64% { transform: scaleY(.82); }
+    }
+
+    @keyframes upperMid {
+      0%, 100% { transform: translateY(10px) scaleY(.66); }
+      38% { transform: translateY(-2px) scaleY(1.08); }
+      70% { transform: translateY(5px) scaleY(.86); }
+    }
+
+    @keyframes upperTip {
+      0%, 100% { transform: translateY(14px) scaleY(.58); }
+      42% { transform: translateY(-4px) scaleY(1.12); }
+      72% { transform: translateY(6px) scaleY(.82); }
+    }
+
+    @keyframes lowerMid {
+      0%, 100% { transform: translateY(-10px) scaleY(.66); }
+      38% { transform: translateY(2px) scaleY(1.08); }
+      70% { transform: translateY(-5px) scaleY(.86); }
+    }
+
+    @keyframes lowerTip {
+      0%, 100% { transform: translateY(-14px) scaleY(.58); }
+      42% { transform: translateY(4px) scaleY(1.12); }
+      72% { transform: translateY(-6px) scaleY(.82); }
+    }
+
+    .stage:hover .bar {
+      animation-play-state: paused;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: calc(100vw - 32px);
+        gap: 20px;
+      }
+
+      header,
+      footer {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .stage {
+        grid-template-columns: 1fr;
+        gap: 56px;
+        padding: 32px 24px 76px;
+      }
+
+      .demo {
+        width: min(310px, 100%);
+        border-radius: 58px;
+      }
+
+      .spine {
+        left: 62px;
+        top: 62px;
+        width: 32px;
+        height: 186px;
+      }
+
+      .core {
+        left: 122px;
+        top: 113px;
+        width: 24px;
+        height: 84px;
+      }
+
+      .upper-mid {
+        left: 170px;
+        top: 81px;
+        width: 24px;
+        height: 68px;
+      }
+
+      .upper-tip {
+        left: 218px;
+        top: 57px;
+        width: 24px;
+        height: 50px;
+      }
+
+      .lower-mid {
+        left: 170px;
+        top: 161px;
+        width: 24px;
+        height: 68px;
+      }
+
+      .lower-tip {
+        left: 218px;
+        top: 204px;
+        width: 24px;
+        height: 50px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bar { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="wordmark">KUNO</div>
+      <div>Signal K Motion v1</div>
+    </header>
+
+    <section class="stage" aria-label="Kuno Signal K recording-state motion preview">
+      <div>
+        <h1>Recording, without losing the mark.</h1>
+        <p>The spine stays fixed as Kuno. The bars move only in the capture state, on a 1.6s measured loop.</p>
+      </div>
+
+      <div class="demo" role="img" aria-label="Animated K formed from signal bars">
+        <div class="bar spine"></div>
+        <div class="bar core"></div>
+        <div class="bar upper-mid"></div>
+        <div class="bar upper-tip"></div>
+        <div class="bar lower-mid"></div>
+        <div class="bar lower-tip"></div>
+        <div class="label">Hover to pause</div>
+      </div>
+    </section>
+
+    <footer>
+      <div>Recording-state motion only</div>
+      <div>Paper #F4EFE6 · Ink #1C1A17 · Fresh Champagne #D4C39D · Soft Nickel #A7A19A</div>
+    </footer>
+  </main>
+</body>
+</html>
