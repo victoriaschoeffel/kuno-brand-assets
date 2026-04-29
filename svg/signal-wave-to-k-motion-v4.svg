@@ -1,0 +1,77 @@
+<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="660" fill="#F4EFE6"/>
+  <text x="70" y="70" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="780" letter-spacing="4">KUNO</text>
+  <text x="70" y="106" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="650" letter-spacing="2.6">SIGNAL WAVE TO K MOTION V4</text>
+  <text x="70" y="140" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500">Resting mark reads as signal. Capture gathers into a contained, right-opening K. No red and no bars outside the black icon field.</text>
+
+  <g transform="translate(70 195)">
+    <text x="0" y="-36" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="2.4">EDITABLE MOTION STATES</text>
+
+    <g transform="translate(0 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <rect x="38" y="39" width="16" height="82" rx="8" fill="#F4EFE6"/>
+      <rect x="68" y="61" width="12" height="38" rx="6" fill="#4F7D63"/>
+      <rect x="93" y="48" width="13" height="64" rx="6.5" fill="#F4EFE6"/>
+      <rect x="121" y="55" width="13" height="49" rx="6.5" fill="#A7A19A" opacity=".82"/>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">0ms idle signal</text>
+    </g>
+
+    <g transform="translate(190 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <rect x="38" y="35" width="16" height="90" rx="8" fill="#F4EFE6"/>
+      <rect x="68" y="57" width="12" height="46" rx="6" fill="#4F7D63"/>
+      <rect x="93" y="42" width="13" height="76" rx="6.5" fill="#F4EFE6"/>
+      <rect x="121" y="51" width="13" height="58" rx="6.5" fill="#A7A19A" opacity=".82"/>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">290ms breath</text>
+    </g>
+
+    <g transform="translate(380 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <rect x="38" y="33" width="16" height="93" rx="8" fill="#F4EFE6"/>
+      <rect x="66" y="64" width="12" height="32" rx="6" fill="#4F7D63" opacity=".86"/>
+      <rect x="90" y="40" width="15" height="70" rx="7.5" fill="#F4EFE6" transform="rotate(16 97.5 75)"/>
+      <rect x="90" y="51" width="15" height="70" rx="7.5" fill="#F4EFE6" opacity=".42" transform="rotate(-16 97.5 86)"/>
+      <rect x="113" y="63" width="12" height="35" rx="6" fill="#A7A19A" opacity=".48"/>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">580ms gather</text>
+    </g>
+
+    <g transform="translate(570 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <rect x="38" y="32" width="16" height="96" rx="8" fill="#F4EFE6"/>
+      <rect x="64" y="67" width="12" height="26" rx="6" fill="#4F7D63" opacity=".52"/>
+      <rect x="79" y="25" width="16" height="68" rx="8" fill="#F4EFE6" transform="rotate(54 87 59)"/>
+      <rect x="79" y="67" width="16" height="68" rx="8" fill="#F4EFE6" transform="rotate(-54 87 101)"/>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">930ms K reveal</text>
+    </g>
+
+    <g transform="translate(760 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <rect x="38" y="32" width="16" height="96" rx="8" fill="#F4EFE6"/>
+      <rect x="64" y="67" width="12" height="26" rx="6" fill="#4F7D63" opacity=".34"/>
+      <rect x="79" y="25" width="16" height="68" rx="8" fill="#F4EFE6" transform="rotate(54 87 59)"/>
+      <rect x="79" y="67" width="16" height="68" rx="8" fill="#F4EFE6" transform="rotate(-54 87 101)"/>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">1180ms K lock</text>
+    </g>
+
+    <g transform="translate(950 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <rect x="38" y="39" width="16" height="82" rx="8" fill="#F4EFE6"/>
+      <rect x="68" y="61" width="12" height="38" rx="6" fill="#4F7D63"/>
+      <rect x="93" y="48" width="13" height="64" rx="6.5" fill="#F4EFE6"/>
+      <rect x="121" y="55" width="13" height="49" rx="6.5" fill="#A7A19A" opacity=".82"/>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">1600ms return</text>
+    </g>
+  </g>
+
+  <g transform="translate(70 485)">
+    <rect x="0" y="0" width="510" height="86" rx="16" fill="#E6DFD2"/>
+    <text x="26" y="35" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="720">JSON motion spec</text>
+    <text x="26" y="62" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500">Stores geometry, timing, labels, and palette keys.</text>
+  </g>
+
+  <g transform="translate(610 485)">
+    <rect x="0" y="0" width="520" height="86" rx="16" fill="#E6DFD2"/>
+    <text x="26" y="35" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="720">Motion rule</text>
+    <text x="26" y="62" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500">Review HTML may loop. Product use should trigger from capture state.</text>
+  </g>
+</svg>

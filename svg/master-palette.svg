@@ -1,9 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" width="700" height="220">
-  <rect width="700" height="220" fill="#FFFFFF" rx="8"/>
-  <text x="20" y="32" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="500" fill="#1C1A17" letter-spacing="2">KUNO · MASTER PALETTE</text>
-  <g><rect x="20" y="50" width="120" height="120" fill="#F4EFE6" stroke="#D9D2C5" stroke-width="1" rx="6"/><text x="80" y="190" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#7A736A" text-anchor="middle">Paper</text><text x="80" y="208" font-family="ui-monospace,monospace" font-size="10" fill="#999286" text-anchor="middle">#F4EFE6</text></g>
-  <g><rect x="160" y="50" width="120" height="120" fill="#1C1A17" rx="6"/><text x="220" y="190" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#7A736A" text-anchor="middle">Ink</text><text x="220" y="208" font-family="ui-monospace,monospace" font-size="10" fill="#999286" text-anchor="middle">#1C1A17</text></g>
-  <g><rect x="300" y="50" width="120" height="120" fill="#B8945A" rx="6"/><text x="360" y="190" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#7A736A" text-anchor="middle">Warm Gold</text><text x="360" y="208" font-family="ui-monospace,monospace" font-size="10" fill="#999286" text-anchor="middle">#B8945A</text></g>
-  <g><rect x="440" y="50" width="120" height="120" fill="#7A736A" rx="6"/><text x="500" y="190" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#7A736A" text-anchor="middle">Stone</text><text x="500" y="208" font-family="ui-monospace,monospace" font-size="10" fill="#999286" text-anchor="middle">#7A736A</text></g>
-  <g><rect x="580" y="50" width="100" height="120" fill="#E6DFD2" stroke="#D9D2C5" stroke-width="1" rx="6"/><text x="630" y="190" font-family="system-ui,sans-serif" font-size="11" font-weight="500" fill="#7A736A" text-anchor="middle">Quiet</text><text x="630" y="208" font-family="ui-monospace,monospace" font-size="10" fill="#999286" text-anchor="middle">#E6DFD2</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 300" width="980" height="300">
+  <defs>
+    <linearGradient id="material" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#D4C39D"/>
+      <stop offset="1" stop-color="#B8945A"/>
+    </linearGradient>
+  </defs>
+  <rect width="980" height="300" fill="#FFFFFF" rx="8"/>
+  <text x="24" y="34" font-family="system-ui,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#1C1A17" letter-spacing="2">KUNO · LIGHTER UX PALETTE</text>
+  <text x="24" y="58" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#7A736A">Clean surfaces + one action color. Warm Gold / Champagne are material-only.</text>
+
+  <g>
+    <rect x="24" y="86" width="104" height="104" fill="#FAFAF9" stroke="#E9E6DF" stroke-width="1" rx="8"/>
+    <text x="76" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Clean Canvas</text>
+    <text x="76" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">#FAFAF9</text>
+  </g>
+  <g>
+    <rect x="144" y="86" width="104" height="104" fill="#FFFFFF" stroke="#E9E6DF" stroke-width="1" rx="8"/>
+    <text x="196" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Elevated</text>
+    <text x="196" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">#FFFFFF</text>
+  </g>
+  <g>
+    <rect x="264" y="86" width="104" height="104" fill="#F2F0EB" stroke="#E9E6DF" stroke-width="1" rx="8"/>
+    <text x="316" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Soft Field</text>
+    <text x="316" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">#F2F0EB</text>
+  </g>
+  <g>
+    <rect x="384" y="86" width="104" height="104" fill="#A7A19A" rx="8"/>
+    <text x="436" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Soft Nickel</text>
+    <text x="436" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">#A7A19A</text>
+  </g>
+  <g>
+    <rect x="504" y="86" width="104" height="104" fill="#1C1A17" rx="8"/>
+    <text x="556" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Ink</text>
+    <text x="556" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">#1C1A17</text>
+  </g>
+  <g>
+    <rect x="624" y="86" width="104" height="104" fill="#4F7D63" rx="8"/>
+    <text x="676" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Signal Sage</text>
+    <text x="676" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">#4F7D63</text>
+  </g>
+  <g>
+    <rect x="744" y="86" width="104" height="104" fill="#C84B3F" rx="8"/>
+    <text x="796" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Recording</text>
+    <text x="796" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">#C84B3F</text>
+  </g>
+  <g>
+    <rect x="864" y="86" width="92" height="104" fill="url(#material)" rx="8"/>
+    <text x="910" y="218" font-family="system-ui,sans-serif" font-size="11" font-weight="600" fill="#1C1A17" text-anchor="middle">Material</text>
+    <text x="910" y="237" font-family="ui-monospace,monospace" font-size="10" fill="#7A736A" text-anchor="middle">only</text>
+  </g>
+
+  <text x="24" y="276" font-family="system-ui,-apple-system,sans-serif" font-size="12" fill="#7A736A">Target ratio: 70% clean white / near-white · 20% nickel / stone neutrals · 7% Paper warmth · 3% Signal Sage action.</text>
 </svg>

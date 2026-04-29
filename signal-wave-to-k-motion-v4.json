@@ -1,0 +1,127 @@
+{
+  "name": "kuno-signal-wave-to-k-motion-v4",
+  "version": "0.14",
+  "format": "kuno-motion-spec-v1",
+  "description": "Contained signal bars that morph into a temporary right-opening K during capture, then return to the simple signal mark.",
+  "palette": {
+    "paper": "#F4EFE6",
+    "ink": "#1C1A17",
+    "quiet": "#E6DFD2",
+    "stone": "#7A736A",
+    "signalSage": "#4F7D63",
+    "softNickel": "#A7A19A"
+  },
+  "viewBox": {
+    "width": 220,
+    "height": 220,
+    "cornerRadius": 44,
+    "safeInset": 30
+  },
+  "timing": {
+    "durationMs": 1600,
+    "curve": "cubic-bezier(0.2, 0.74, 0.18, 1)",
+    "loopForReview": true,
+    "productionTrigger": "capture-state-only"
+  },
+  "bars": [
+    {
+      "id": "spine",
+      "role": "fixed K spine and first signal bar",
+      "fill": "paper"
+    },
+    {
+      "id": "center",
+      "role": "active signal bead",
+      "fill": "signalSage"
+    },
+    {
+      "id": "upper",
+      "role": "right signal bar becoming upper K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "lower",
+      "role": "hidden paired bar becoming lower K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "tip",
+      "role": "outer signal bar that fades during K reveal",
+      "fill": "softNickel"
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "idleSignal",
+      "t": 0,
+      "label": "0ms idle",
+      "bars": {
+        "spine": { "x": 50, "y": 54, "w": 22, "h": 112, "r": 0, "opacity": 1 },
+        "center": { "x": 92, "y": 84, "w": 16, "h": 52, "r": 0, "opacity": 1 },
+        "upper": { "x": 126, "y": 66, "w": 18, "h": 88, "r": 0, "opacity": 1 },
+        "lower": { "x": 126, "y": 66, "w": 18, "h": 88, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 76, "w": 18, "h": 68, "r": 0, "opacity": 0.82 }
+      }
+    },
+    {
+      "name": "breath",
+      "t": 0.18,
+      "label": "290ms breath",
+      "bars": {
+        "spine": { "x": 50, "y": 48, "w": 22, "h": 124, "r": 0, "opacity": 1 },
+        "center": { "x": 92, "y": 78, "w": 16, "h": 64, "r": 0, "opacity": 1 },
+        "upper": { "x": 126, "y": 58, "w": 18, "h": 104, "r": 0, "opacity": 1 },
+        "lower": { "x": 126, "y": 58, "w": 18, "h": 104, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 0.82 }
+      }
+    },
+    {
+      "name": "gather",
+      "t": 0.36,
+      "label": "580ms gather",
+      "bars": {
+        "spine": { "x": 50, "y": 46, "w": 22, "h": 128, "r": 0, "opacity": 1 },
+        "center": { "x": 90, "y": 88, "w": 16, "h": 44, "r": 0, "opacity": 0.86 },
+        "upper": { "x": 118, "y": 54, "w": 20, "h": 96, "r": 16, "opacity": 1 },
+        "lower": { "x": 118, "y": 70, "w": 20, "h": 96, "r": -16, "opacity": 0.42 },
+        "tip": { "x": 156, "y": 86, "w": 16, "h": 48, "r": 0, "opacity": 0.48 }
+      }
+    },
+    {
+      "name": "kReveal",
+      "t": 0.58,
+      "label": "930ms K reveal",
+      "bars": {
+        "spine": { "x": 50, "y": 44, "w": 22, "h": 132, "r": 0, "opacity": 1 },
+        "center": { "x": 88, "y": 92, "w": 16, "h": 36, "r": 0, "opacity": 0.52 },
+        "upper": { "x": 109, "y": 34, "w": 22, "h": 94, "r": 54, "opacity": 1 },
+        "lower": { "x": 109, "y": 92, "w": 22, "h": 94, "r": -54, "opacity": 1 },
+        "tip": { "x": 148, "y": 96, "w": 16, "h": 28, "r": 0, "opacity": 0 }
+      }
+    },
+    {
+      "name": "kLock",
+      "t": 0.74,
+      "label": "1180ms K lock",
+      "bars": {
+        "spine": { "x": 50, "y": 44, "w": 22, "h": 132, "r": 0, "opacity": 1 },
+        "center": { "x": 88, "y": 92, "w": 16, "h": 36, "r": 0, "opacity": 0.34 },
+        "upper": { "x": 109, "y": 34, "w": 22, "h": 94, "r": 54, "opacity": 1 },
+        "lower": { "x": 109, "y": 92, "w": 22, "h": 94, "r": -54, "opacity": 1 },
+        "tip": { "x": 148, "y": 96, "w": 16, "h": 28, "r": 0, "opacity": 0 }
+      }
+    },
+    {
+      "name": "returnSignal",
+      "t": 1,
+      "label": "1600ms return",
+      "bars": {
+        "spine": { "x": 50, "y": 54, "w": 22, "h": 112, "r": 0, "opacity": 1 },
+        "center": { "x": 92, "y": 84, "w": 16, "h": 52, "r": 0, "opacity": 1 },
+        "upper": { "x": 126, "y": 66, "w": 18, "h": 88, "r": 0, "opacity": 1 },
+        "lower": { "x": 126, "y": 66, "w": 18, "h": 88, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 76, "w": 18, "h": 68, "r": 0, "opacity": 0.82 }
+      }
+    }
+  ]
+}
