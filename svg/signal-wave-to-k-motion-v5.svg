@@ -1,0 +1,103 @@
+<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip-state"><rect width="160" height="160" rx="34"/></clipPath>
+  </defs>
+  <rect width="1200" height="660" fill="#F4EFE6"/>
+  <text x="70" y="70" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="780" letter-spacing="4">KUNO</text>
+  <text x="70" y="106" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="650" letter-spacing="2.6">SIGNAL WAVE TO K MOTION V5</text>
+  <text x="70" y="140" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500">Connected signal state resolves into a fully joined, right-opening K. The final K overlaps at the joint instead of leaving a gap.</text>
+
+  <g transform="translate(70 195)">
+    <text x="0" y="-36" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="2.4">EDITABLE MOTION STATES</text>
+
+    <g transform="translate(0 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="34.91" y="39.27" width="16.00" height="81.45" rx="8.00" fill="#F4EFE6" opacity="1"/>
+      <rect x="48.00" y="73.45" width="17.45" height="14.55" rx="8.73" fill="#F4EFE6" opacity="0.95"/>
+      <rect x="74.91" y="62.55" width="11.64" height="34.91" rx="5.82" fill="#A7A19A" opacity="1"/>
+      <rect x="96.00" y="50.91" width="13.09" height="58.18" rx="6.55" fill="#F4EFE6" opacity="1"/>
+      <rect x="96.00" y="50.91" width="13.09" height="58.18" rx="6.55" fill="#F4EFE6" opacity="0"/>
+      <rect x="119.27" y="56.73" width="13.09" height="46.55" rx="6.55" fill="#7A736A" opacity="0.78"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">0ms connected signal</text>
+    </g>
+
+    <g transform="translate(190 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="34.91" y="34.91" width="16.00" height="90.18" rx="8.00" fill="#F4EFE6" opacity="1"/>
+      <rect x="48.00" y="72.73" width="18.91" height="14.55" rx="9.45" fill="#F4EFE6" opacity="1"/>
+      <rect x="74.91" y="58.18" width="11.64" height="43.64" rx="5.82" fill="#A7A19A" opacity="1"/>
+      <rect x="96.00" y="45.09" width="13.09" height="69.82" rx="6.55" fill="#F4EFE6" opacity="1"/>
+      <rect x="96.00" y="45.09" width="13.09" height="69.82" rx="6.55" fill="#F4EFE6" opacity="0"/>
+      <rect x="119.27" y="52.36" width="13.09" height="55.27" rx="6.55" fill="#7A736A" opacity="0.78"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">290ms signal breath</text>
+    </g>
+
+    <g transform="translate(380 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="34.91" y="33.45" width="16.00" height="93.09" rx="8.00" fill="#F4EFE6" opacity="1"/>
+      <rect x="48.00" y="69.82" width="23.27" height="17.45" rx="11.64" fill="#F4EFE6" opacity="1"/>
+      <rect x="71.27" y="66.18" width="11.64" height="27.64" rx="5.82" fill="#A7A19A" opacity="0.8"/>
+      <rect x="77.09" y="40.73" width="14.55" height="71.27" rx="7.27" fill="#F4EFE6" opacity="1" transform="rotate(30 84.36 76.36)"/>
+      <rect x="77.09" y="49.45" width="14.55" height="71.27" rx="7.27" fill="#F4EFE6" opacity="0.64" transform="rotate(-30 84.36 85.09)"/>
+      <rect x="109.09" y="64.00" width="11.64" height="32.00" rx="5.82" fill="#7A736A" opacity="0.42"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">580ms gather at hinge</text>
+    </g>
+
+    <g transform="translate(570 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="34.91" y="32.00" width="16.00" height="96.00" rx="8.00" fill="#F4EFE6" opacity="1"/>
+      <rect x="48.00" y="69.82" width="26.18" height="18.91" rx="13.09" fill="#F4EFE6" opacity="1"/>
+      <rect x="61.09" y="72.73" width="10.18" height="14.55" rx="5.09" fill="#A7A19A" opacity="0.22"/>
+      <rect x="66.18" y="21.82" width="16.00" height="78.55" rx="8.00" fill="#F4EFE6" opacity="1" transform="rotate(54 74.18 61.09)"/>
+      <rect x="66.18" y="59.64" width="16.00" height="78.55" rx="8.00" fill="#F4EFE6" opacity="1" transform="rotate(-54 74.18 98.91)"/>
+      <rect x="106.18" y="71.27" width="10.18" height="17.45" rx="5.09" fill="#7A736A" opacity="0"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">930ms joined K reveal</text>
+    </g>
+
+    <g transform="translate(760 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="34.91" y="32.00" width="16.00" height="96.00" rx="8.00" fill="#F4EFE6" opacity="1"/>
+      <rect x="48.00" y="69.82" width="26.18" height="18.91" rx="13.09" fill="#F4EFE6" opacity="1"/>
+      <rect x="61.09" y="72.73" width="10.18" height="14.55" rx="5.09" fill="#A7A19A" opacity="0"/>
+      <rect x="66.18" y="21.82" width="16.00" height="78.55" rx="8.00" fill="#F4EFE6" opacity="1" transform="rotate(54 74.18 61.09)"/>
+      <rect x="66.18" y="59.64" width="16.00" height="78.55" rx="8.00" fill="#F4EFE6" opacity="1" transform="rotate(-54 74.18 98.91)"/>
+      <rect x="106.18" y="71.27" width="10.18" height="17.45" rx="5.09" fill="#7A736A" opacity="0"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">1180ms complete K lock</text>
+    </g>
+
+    <g transform="translate(950 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="34.91" y="39.27" width="16.00" height="81.45" rx="8.00" fill="#F4EFE6" opacity="1"/>
+      <rect x="48.00" y="73.45" width="17.45" height="14.55" rx="8.73" fill="#F4EFE6" opacity="0.95"/>
+      <rect x="74.91" y="62.55" width="11.64" height="34.91" rx="5.82" fill="#A7A19A" opacity="1"/>
+      <rect x="96.00" y="50.91" width="13.09" height="58.18" rx="6.55" fill="#F4EFE6" opacity="1"/>
+      <rect x="96.00" y="50.91" width="13.09" height="58.18" rx="6.55" fill="#F4EFE6" opacity="0"/>
+      <rect x="119.27" y="56.73" width="13.09" height="46.55" rx="6.55" fill="#7A736A" opacity="0.78"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">1600ms connected signal</text>
+    </g>
+  </g>
+
+  <g transform="translate(70 485)">
+    <rect x="0" y="0" width="510" height="86" rx="16" fill="#E6DFD2"/>
+    <text x="26" y="35" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="720">Connected hinge seed</text>
+    <text x="26" y="62" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500">The rest state starts from the same bridge that finishes the K.</text>
+  </g>
+
+  <g transform="translate(610 485)">
+    <rect x="0" y="0" width="520" height="86" rx="16" fill="#E6DFD2"/>
+    <text x="26" y="35" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="720">Complete lock state</text>
+    <text x="26" y="62" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500">The arms overlap the bridge and spine, so the K reads as one mark.</text>
+  </g>
+</svg>

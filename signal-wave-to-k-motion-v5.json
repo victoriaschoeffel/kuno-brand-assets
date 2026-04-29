@@ -1,0 +1,137 @@
+{
+  "name": "kuno-signal-wave-to-k-motion-v5",
+  "version": "0.15",
+  "format": "kuno-motion-spec-v1",
+  "description": "Signal bars with a hinge seed that resolves into a fully joined right-opening K during capture.",
+  "palette": {
+    "paper": "#F4EFE6",
+    "ink": "#1C1A17",
+    "quiet": "#E6DFD2",
+    "stone": "#7A736A",
+    "softNickel": "#A7A19A"
+  },
+  "viewBox": {
+    "width": 220,
+    "height": 220,
+    "cornerRadius": 44,
+    "safeInset": 28
+  },
+  "timing": {
+    "durationMs": 1600,
+    "curve": "cubic-bezier(0.2, 0.74, 0.18, 1)",
+    "loopForReview": true,
+    "productionTrigger": "capture-state-only"
+  },
+  "bars": [
+    {
+      "id": "spine",
+      "role": "fixed K spine and first signal bar",
+      "fill": "paper"
+    },
+    {
+      "id": "hinge",
+      "role": "small signal seed that becomes the K bridge",
+      "fill": "paper"
+    },
+    {
+      "id": "center",
+      "role": "neutral signal bead",
+      "fill": "softNickel"
+    },
+    {
+      "id": "upper",
+      "role": "right signal bar becoming upper K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "lower",
+      "role": "hidden paired bar becoming lower K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "tip",
+      "role": "outer signal rail that fades during K reveal",
+      "fill": "stone"
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "idleSignal",
+      "t": 0,
+      "label": "0ms connected signal",
+      "bars": {
+        "spine": { "x": 48, "y": 54, "w": 22, "h": 112, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 101, "w": 24, "h": 20, "r": 0, "opacity": 0.95 },
+        "center": { "x": 103, "y": 86, "w": 16, "h": 48, "r": 0, "opacity": 1 },
+        "upper": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 1 },
+        "lower": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 78, "w": 18, "h": 64, "r": 0, "opacity": 0.78 }
+      }
+    },
+    {
+      "name": "breath",
+      "t": 0.18,
+      "label": "290ms signal breath",
+      "bars": {
+        "spine": { "x": 48, "y": 48, "w": 22, "h": 124, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 100, "w": 26, "h": 20, "r": 0, "opacity": 1 },
+        "center": { "x": 103, "y": 80, "w": 16, "h": 60, "r": 0, "opacity": 1 },
+        "upper": { "x": 132, "y": 62, "w": 18, "h": 96, "r": 0, "opacity": 1 },
+        "lower": { "x": 132, "y": 62, "w": 18, "h": 96, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 72, "w": 18, "h": 76, "r": 0, "opacity": 0.78 }
+      }
+    },
+    {
+      "name": "gather",
+      "t": 0.36,
+      "label": "580ms gather at hinge",
+      "bars": {
+        "spine": { "x": 48, "y": 46, "w": 22, "h": 128, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 96, "w": 32, "h": 24, "r": 0, "opacity": 1 },
+        "center": { "x": 98, "y": 91, "w": 16, "h": 38, "r": 0, "opacity": 0.8 },
+        "upper": { "x": 106, "y": 56, "w": 20, "h": 98, "r": 30, "opacity": 1 },
+        "lower": { "x": 106, "y": 68, "w": 20, "h": 98, "r": -30, "opacity": 0.64 },
+        "tip": { "x": 150, "y": 88, "w": 16, "h": 44, "r": 0, "opacity": 0.42 }
+      }
+    },
+    {
+      "name": "joinedKReveal",
+      "t": 0.58,
+      "label": "930ms joined K reveal",
+      "bars": {
+        "spine": { "x": 48, "y": 44, "w": 22, "h": 132, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 96, "w": 36, "h": 26, "r": 0, "opacity": 1 },
+        "center": { "x": 84, "y": 100, "w": 14, "h": 20, "r": 0, "opacity": 0.22 },
+        "upper": { "x": 91, "y": 30, "w": 22, "h": 108, "r": 54, "opacity": 1 },
+        "lower": { "x": 91, "y": 82, "w": 22, "h": 108, "r": -54, "opacity": 1 },
+        "tip": { "x": 146, "y": 98, "w": 14, "h": 24, "r": 0, "opacity": 0 }
+      }
+    },
+    {
+      "name": "joinedKLock",
+      "t": 0.74,
+      "label": "1180ms complete K lock",
+      "bars": {
+        "spine": { "x": 48, "y": 44, "w": 22, "h": 132, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 96, "w": 36, "h": 26, "r": 0, "opacity": 1 },
+        "center": { "x": 84, "y": 100, "w": 14, "h": 20, "r": 0, "opacity": 0 },
+        "upper": { "x": 91, "y": 30, "w": 22, "h": 108, "r": 54, "opacity": 1 },
+        "lower": { "x": 91, "y": 82, "w": 22, "h": 108, "r": -54, "opacity": 1 },
+        "tip": { "x": 146, "y": 98, "w": 14, "h": 24, "r": 0, "opacity": 0 }
+      }
+    },
+    {
+      "name": "returnSignal",
+      "t": 1,
+      "label": "1600ms connected signal",
+      "bars": {
+        "spine": { "x": 48, "y": 54, "w": 22, "h": 112, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 101, "w": 24, "h": 20, "r": 0, "opacity": 0.95 },
+        "center": { "x": 103, "y": 86, "w": 16, "h": 48, "r": 0, "opacity": 1 },
+        "upper": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 1 },
+        "lower": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 78, "w": 18, "h": 64, "r": 0, "opacity": 0.78 }
+      }
+    }
+  ]
+}

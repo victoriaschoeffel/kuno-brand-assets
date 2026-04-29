@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kuno Signal Wave to K Motion v5</title>
+  <style>
+    :root {
+      --paper: #F4EFE6;
+      --ink: #1C1A17;
+      --quiet: #E6DFD2;
+      --stone: #7A736A;
+      --nickel: #A7A19A;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      width: min(1120px, calc(100vw - 48px));
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 28px;
+    }
+
+    header,
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      color: var(--stone);
+      font-size: 12px;
+      font-weight: 650;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+    .wordmark {
+      color: var(--ink);
+      font-size: 28px;
+      font-weight: 820;
+      letter-spacing: 5px;
+    }
+
+    .stage {
+      min-height: min(720px, calc(100vh - 160px));
+      border-radius: 28px;
+      background: var(--quiet);
+      display: grid;
+      grid-template-columns: minmax(300px, .9fr) minmax(360px, 1fr);
+      align-items: center;
+      gap: 56px;
+      padding: clamp(32px, 6vw, 76px);
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 560px;
+      font-size: clamp(48px, 7vw, 88px);
+      line-height: .96;
+      font-weight: 780;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 22px 0 0;
+      max-width: 430px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: var(--stone);
+      font-weight: 500;
+    }
+
+    .demo-wrap {
+      display: grid;
+      justify-items: center;
+      gap: 20px;
+    }
+
+    .demo {
+      aspect-ratio: 1;
+      width: min(390px, 100%);
+      justify-self: center;
+      border-radius: 76px;
+      background: var(--ink);
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 34px 70px rgba(28, 26, 23, .14);
+    }
+
+    .demo svg {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .bar {
+      transform-box: fill-box;
+      transform-origin: center;
+      will-change: transform, opacity;
+    }
+
+    .readout {
+      min-height: 22px;
+      color: var(--stone);
+      font-size: 13px;
+      font-weight: 650;
+      letter-spacing: .4px;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      main { width: calc(100vw - 32px); gap: 20px; }
+      header, footer { flex-direction: column; align-items: flex-start; gap: 8px; }
+      .stage { grid-template-columns: 1fr; gap: 44px; padding: 32px 24px 56px; }
+      .demo { width: min(310px, 100%); border-radius: 58px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="wordmark">KUNO</div>
+      <div>Signal Wave to K Motion v5</div>
+    </header>
+    <section class="stage" aria-label="Kuno signal wave to K animation prototype">
+      <div>
+        <h1>Signal seed. Complete K.</h1>
+        <p>The resting mark includes a connected hinge seed, so capture motion can build into a joined K without a visual gap.</p>
+      </div>
+      <div class="demo-wrap">
+        <div class="demo" role="img" aria-label="Animated signal bars transforming into a K">
+          <svg id="motion-mark" viewBox="0 0 220 220" aria-hidden="true"></svg>
+        </div>
+        <div class="readout" id="readout">0ms idle</div>
+      </div>
+    </section>
+    <footer>
+      <div>JSON source: signal-wave-to-k-motion-v5.json</div>
+      <div>Production trigger: capture state only</div>
+    </footer>
+  </main>
+
+  <script type="application/json" id="motion-data">
+{
+  "name": "kuno-signal-wave-to-k-motion-v5",
+  "version": "0.15",
+  "format": "kuno-motion-spec-v1",
+  "description": "Signal bars with a hinge seed that resolves into a fully joined right-opening K during capture.",
+  "palette": {
+    "paper": "#F4EFE6",
+    "ink": "#1C1A17",
+    "quiet": "#E6DFD2",
+    "stone": "#7A736A",
+    "softNickel": "#A7A19A"
+  },
+  "viewBox": {
+    "width": 220,
+    "height": 220,
+    "cornerRadius": 44,
+    "safeInset": 28
+  },
+  "timing": {
+    "durationMs": 1600,
+    "curve": "cubic-bezier(0.2, 0.74, 0.18, 1)",
+    "loopForReview": true,
+    "productionTrigger": "capture-state-only"
+  },
+  "bars": [
+    {
+      "id": "spine",
+      "role": "fixed K spine and first signal bar",
+      "fill": "paper"
+    },
+    {
+      "id": "hinge",
+      "role": "small signal seed that becomes the K bridge",
+      "fill": "paper"
+    },
+    {
+      "id": "center",
+      "role": "neutral signal bead",
+      "fill": "softNickel"
+    },
+    {
+      "id": "upper",
+      "role": "right signal bar becoming upper K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "lower",
+      "role": "hidden paired bar becoming lower K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "tip",
+      "role": "outer signal rail that fades during K reveal",
+      "fill": "stone"
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "idleSignal",
+      "t": 0,
+      "label": "0ms connected signal",
+      "bars": {
+        "spine": { "x": 48, "y": 54, "w": 22, "h": 112, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 101, "w": 24, "h": 20, "r": 0, "opacity": 0.95 },
+        "center": { "x": 103, "y": 86, "w": 16, "h": 48, "r": 0, "opacity": 1 },
+        "upper": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 1 },
+        "lower": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 78, "w": 18, "h": 64, "r": 0, "opacity": 0.78 }
+      }
+    },
+    {
+      "name": "breath",
+      "t": 0.18,
+      "label": "290ms signal breath",
+      "bars": {
+        "spine": { "x": 48, "y": 48, "w": 22, "h": 124, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 100, "w": 26, "h": 20, "r": 0, "opacity": 1 },
+        "center": { "x": 103, "y": 80, "w": 16, "h": 60, "r": 0, "opacity": 1 },
+        "upper": { "x": 132, "y": 62, "w": 18, "h": 96, "r": 0, "opacity": 1 },
+        "lower": { "x": 132, "y": 62, "w": 18, "h": 96, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 72, "w": 18, "h": 76, "r": 0, "opacity": 0.78 }
+      }
+    },
+    {
+      "name": "gather",
+      "t": 0.36,
+      "label": "580ms gather at hinge",
+      "bars": {
+        "spine": { "x": 48, "y": 46, "w": 22, "h": 128, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 96, "w": 32, "h": 24, "r": 0, "opacity": 1 },
+        "center": { "x": 98, "y": 91, "w": 16, "h": 38, "r": 0, "opacity": 0.8 },
+        "upper": { "x": 106, "y": 56, "w": 20, "h": 98, "r": 30, "opacity": 1 },
+        "lower": { "x": 106, "y": 68, "w": 20, "h": 98, "r": -30, "opacity": 0.64 },
+        "tip": { "x": 150, "y": 88, "w": 16, "h": 44, "r": 0, "opacity": 0.42 }
+      }
+    },
+    {
+      "name": "joinedKReveal",
+      "t": 0.58,
+      "label": "930ms joined K reveal",
+      "bars": {
+        "spine": { "x": 48, "y": 44, "w": 22, "h": 132, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 96, "w": 36, "h": 26, "r": 0, "opacity": 1 },
+        "center": { "x": 84, "y": 100, "w": 14, "h": 20, "r": 0, "opacity": 0.22 },
+        "upper": { "x": 91, "y": 30, "w": 22, "h": 108, "r": 54, "opacity": 1 },
+        "lower": { "x": 91, "y": 82, "w": 22, "h": 108, "r": -54, "opacity": 1 },
+        "tip": { "x": 146, "y": 98, "w": 14, "h": 24, "r": 0, "opacity": 0 }
+      }
+    },
+    {
+      "name": "joinedKLock",
+      "t": 0.74,
+      "label": "1180ms complete K lock",
+      "bars": {
+        "spine": { "x": 48, "y": 44, "w": 22, "h": 132, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 96, "w": 36, "h": 26, "r": 0, "opacity": 1 },
+        "center": { "x": 84, "y": 100, "w": 14, "h": 20, "r": 0, "opacity": 0 },
+        "upper": { "x": 91, "y": 30, "w": 22, "h": 108, "r": 54, "opacity": 1 },
+        "lower": { "x": 91, "y": 82, "w": 22, "h": 108, "r": -54, "opacity": 1 },
+        "tip": { "x": 146, "y": 98, "w": 14, "h": 24, "r": 0, "opacity": 0 }
+      }
+    },
+    {
+      "name": "returnSignal",
+      "t": 1,
+      "label": "1600ms connected signal",
+      "bars": {
+        "spine": { "x": 48, "y": 54, "w": 22, "h": 112, "r": 0, "opacity": 1 },
+        "hinge": { "x": 66, "y": 101, "w": 24, "h": 20, "r": 0, "opacity": 0.95 },
+        "center": { "x": 103, "y": 86, "w": 16, "h": 48, "r": 0, "opacity": 1 },
+        "upper": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 1 },
+        "lower": { "x": 132, "y": 70, "w": 18, "h": 80, "r": 0, "opacity": 0 },
+        "tip": { "x": 164, "y": 78, "w": 18, "h": 64, "r": 0, "opacity": 0.78 }
+      }
+    }
+  ]
+}
+  
+  </script>
+
+  <script>
+    const motion = JSON.parse(document.getElementById("motion-data").textContent);
+    const svg = document.getElementById("motion-mark");
+    const readout = document.getElementById("readout");
+    const ns = "http://www.w3.org/2000/svg";
+    const palette = motion.palette;
+    const rects = new Map();
+    let barLayer;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    function setupSvg() {
+      svg.innerHTML = `
+        <defs>
+          <clipPath id="icon-clip">
+            <rect width="220" height="220" rx="44"></rect>
+          </clipPath>
+        </defs>
+        <rect width="220" height="220" rx="44" fill="${palette.ink}"></rect>
+        <g id="bar-layer" clip-path="url(#icon-clip)"></g>
+      `;
+      barLayer = svg.querySelector("#bar-layer");
+    }
+
+    function makeRect(id, fillKey) {
+      const rect = document.createElementNS(ns, "rect");
+      rect.classList.add("bar");
+      rect.dataset.id = id;
+      rect.setAttribute("fill", palette[fillKey]);
+      barLayer.appendChild(rect);
+      rects.set(id, rect);
+    }
+
+    setupSvg();
+    motion.bars.forEach((bar) => makeRect(bar.id, bar.fill));
+
+    function ease(t) {
+      return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    }
+
+    function lerp(a, b, t) {
+      return a + (b - a) * t;
+    }
+
+    function currentPair(progress) {
+      const frames = motion.keyframes;
+      for (let i = 0; i < frames.length - 1; i += 1) {
+        if (progress >= frames[i].t && progress <= frames[i + 1].t) {
+          const span = frames[i + 1].t - frames[i].t;
+          return {
+            from: frames[i],
+            to: frames[i + 1],
+            mix: span === 0 ? 0 : (progress - frames[i].t) / span
+          };
+        }
+      }
+      return { from: frames[frames.length - 1], to: frames[frames.length - 1], mix: 0 };
+    }
+
+    function draw(progress) {
+      const pair = currentPair(progress);
+      const amount = ease(pair.mix);
+      motion.bars.forEach((bar) => {
+        const from = pair.from.bars[bar.id];
+        const to = pair.to.bars[bar.id];
+        const x = lerp(from.x, to.x, amount);
+        const y = lerp(from.y, to.y, amount);
+        const w = lerp(from.w, to.w, amount);
+        const h = lerp(from.h, to.h, amount);
+        const r = lerp(from.r, to.r, amount);
+        const opacity = lerp(from.opacity, to.opacity, amount);
+        const cx = x + w / 2;
+        const cy = y + h / 2;
+        const rect = rects.get(bar.id);
+
+        rect.setAttribute("x", x.toFixed(2));
+        rect.setAttribute("y", y.toFixed(2));
+        rect.setAttribute("width", w.toFixed(2));
+        rect.setAttribute("height", h.toFixed(2));
+        rect.setAttribute("rx", (w / 2).toFixed(2));
+        rect.setAttribute("opacity", opacity.toFixed(3));
+        rect.setAttribute("transform", `rotate(${r.toFixed(2)} ${cx.toFixed(2)} ${cy.toFixed(2)})`);
+      });
+      readout.textContent = pair.to.label;
+    }
+
+    function tick(now) {
+      if (!reduceMotion) {
+        const progress = (now % motion.timing.durationMs) / motion.timing.durationMs;
+        draw(progress);
+      }
+      requestAnimationFrame(tick);
+    }
+
+    draw(0);
+    requestAnimationFrame(tick);
+  </script>
+</body>
+</html>
