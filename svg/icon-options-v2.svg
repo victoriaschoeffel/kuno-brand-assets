@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <rect width="1200" height="700" fill="#F4EFE6"/>
+  <text x="40" y="44" font-family="system-ui,sans-serif" font-size="14" font-weight="500" letter-spacing="2" fill="#7A736A">KUNO · ICON DIRECTIONS · v2 (six new explorations)</text>
+
+  <!-- H: Stacked Ku/no -->
+  <g transform="translate(40, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">H — STACKED KU / NO</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#1C1A17"/>
+    <text x="80" y="120" font-family="system-ui,sans-serif" font-size="58" font-weight="800" fill="#F4EFE6" text-anchor="middle" letter-spacing="2">Ku</text>
+    <text x="80" y="180" font-family="system-ui,sans-serif" font-size="58" font-weight="800" fill="#F4EFE6" text-anchor="middle" letter-spacing="2">no</text>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Wordmark in two stacked syllables.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Off-White / Issey Miyake convention.</text>
+    <text x="0" y="280" font-family="system-ui,sans-serif" font-size="11" fill="#7A736A" font-style="italic">Best at hero / packaging size; tight at 32px.</text>
+  </g>
+
+  <!-- I: K + recording dot -->
+  <g transform="translate(240, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">I — K + RECORDING DOT</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#FFFFFF" stroke="#1C1A17" stroke-width="3"/>
+    <text x="80" y="155" font-family="system-ui,sans-serif" font-size="100" font-weight="800" fill="#1C1A17" text-anchor="middle">K</text>
+    <circle cx="125" cy="65" r="9" fill="#C84B3F"/>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Marks B + C fused.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Always-on signal — AI-with-you.</text>
+    <text x="0" y="280" font-family="system-ui,sans-serif" font-size="11" fill="#7A736A" font-style="italic">Functional at every size; says "active."</text>
+  </g>
+
+  <!-- J: Three dots -->
+  <g transform="translate(440, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">J — THREE DOTS</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#1C1A17"/>
+    <circle cx="48" cy="120" r="13" fill="#B8945A"/>
+    <circle cx="80" cy="120" r="13" fill="#B8945A"/>
+    <circle cx="112" cy="120" r="13" fill="#B8945A"/>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Speech / Morse / pulse.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Most minimal direction.</text>
+    <text x="0" y="280" font-family="system-ui,sans-serif" font-size="11" fill="#7A736A" font-style="italic">Risk: every chat app uses dots — generic.</text>
+  </g>
+
+  <!-- K: Kuno button -->
+  <g transform="translate(640, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">K — THE KUNO BUTTON</text>
+    <circle cx="80" cy="120" r="78" fill="#1C1A17"/>
+    <circle cx="80" cy="120" r="60" fill="none" stroke="#B8945A" stroke-width="2"/>
+    <circle cx="80" cy="120" r="28" fill="#B8945A"/>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">The actual device button as icon.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Hardware-direct, "tap me" cue.</text>
+    <text x="0" y="280" font-family="system-ui,sans-serif" font-size="11" fill="#7A736A" font-style="italic">Most distinctive. References the device.</text>
+  </g>
+
+  <!-- L: Soundwave K -->
+  <g transform="translate(840, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">L — SOUNDWAVE K</text>
+    <rect x="0" y="40" width="160" height="160" rx="32" fill="#1C1A17"/>
+    <text x="60" y="180" font-family="system-ui,sans-serif" font-size="100" font-weight="800" fill="#F4EFE6" text-anchor="middle">K</text>
+    <line x1="118" y1="98" x2="118" y2="80" stroke="#B8945A" stroke-width="3" stroke-linecap="round"/>
+    <line x1="128" y1="98" x2="128" y2="68" stroke="#B8945A" stroke-width="3" stroke-linecap="round"/>
+    <line x1="138" y1="98" x2="138" y2="80" stroke="#B8945A" stroke-width="3" stroke-linecap="round"/>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">K with audio-meter detail.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Says "this thing listens."</text>
+    <text x="0" y="280" font-family="system-ui,sans-serif" font-size="11" fill="#7A736A" font-style="italic">Tech-functional. Slightly busy at 16px.</text>
+  </g>
+
+  <!-- M: Wax seal -->
+  <g transform="translate(1040, 80)">
+    <text x="0" y="20" font-family="system-ui,sans-serif" font-size="11" font-weight="500" letter-spacing="1.5" fill="#7A736A">M — WAX SEAL / HEIDELBERG</text>
+    <circle cx="80" cy="120" r="78" fill="#5A2528"/>
+    <circle cx="80" cy="120" r="60" fill="none" stroke="#B8945A" stroke-width="1.5"/>
+    <text x="80" y="148" font-family="system-ui,sans-serif" font-size="80" font-weight="800" fill="#B8945A" text-anchor="middle">K</text>
+    <text x="0" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Wax-seal aesthetic.</text>
+    <text x="0" y="260" font-family="system-ui,sans-serif" font-size="13" fill="#4A453F">Fischer / Heidelberg academic stamp.</text>
+    <text x="0" y="280" font-family="system-ui,sans-serif" font-size="11" fill="#7A736A" font-style="italic">Most European old-world. Niche but distinctive.</text>
+  </g>
+
+  <!-- Recommendation footer -->
+  <g transform="translate(40, 470)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="13" font-weight="500" letter-spacing="1.5" fill="#7A736A">RECOMMENDATIONS — WHAT EACH IS GOOD FOR</text>
+    <text x="0" y="30" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">**App icon (favicon, mobile, social avatar):** B (debossed K, v1) or I (K + recording dot, v2)</text>
+    <text x="0" y="54" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">**Hardware reference / packaging:** K (the Kuno button) — strongest "tap-to-record" cue</text>
+    <text x="0" y="78" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">**Brand stamp / packaging hero / business card centre:** H (stacked Ku/no) — Off-White convention</text>
+    <text x="0" y="102" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">**Limited edition / Heidelberg drop / press kit seal:** M (wax seal) — pairs with Heidelberg edition</text>
+    <text x="0" y="126" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">**In-product recording UI (already canonical):** C (recording dot, v1) — keep as the secondary mark</text>
+    <text x="0" y="150" font-family="system-ui,sans-serif" font-size="14" fill="#1C1A17">**Avoid:** J (too generic) and L (too busy at favicon size). G (K + umlaut, v1) still in play as wildcard.</text>
+  </g>
+
+  <!-- Decision question -->
+  <g transform="translate(40, 640)">
+    <text x="0" y="0" font-family="system-ui,sans-serif" font-size="12" font-weight="500" fill="#7A736A">❓ Open: lock primary icon (favicon + app) — B (debossed K) vs I (K + dot) vs K (button) — by Day 12 / May 8.</text>
+  </g>
+</svg>
