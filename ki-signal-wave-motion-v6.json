@@ -1,0 +1,548 @@
+{
+  "name": "kuno-ki-signal-wave-motion-v6",
+  "version": "0.16",
+  "format": "kuno-motion-spec-v1",
+  "description": "The K remains stable while the I from Kuno Intelligence opens into a compact sound-wave field during capture.",
+  "palette": {
+    "paper": "#F4EFE6",
+    "ink": "#1C1A17",
+    "quiet": "#E6DFD2",
+    "stone": "#7A736A",
+    "softNickel": "#A7A19A"
+  },
+  "viewBox": {
+    "width": 220,
+    "height": 220,
+    "cornerRadius": 44,
+    "safeInset": 28
+  },
+  "timing": {
+    "durationMs": 1600,
+    "curve": "cubic-bezier(0.2, 0.74, 0.18, 1)",
+    "loopForReview": true,
+    "productionTrigger": "capture-state-only"
+  },
+  "bars": [
+    {
+      "id": "kSpine",
+      "role": "fixed K spine",
+      "fill": "paper"
+    },
+    {
+      "id": "kBridge",
+      "role": "fixed K joint bridge",
+      "fill": "paper"
+    },
+    {
+      "id": "kUpper",
+      "role": "fixed upper K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "kLower",
+      "role": "fixed lower K arm",
+      "fill": "paper"
+    },
+    {
+      "id": "iCore",
+      "role": "I from Intelligence and central signal bar",
+      "fill": "paper"
+    },
+    {
+      "id": "iLeft",
+      "role": "inner left signal bar",
+      "fill": "softNickel"
+    },
+    {
+      "id": "iRight",
+      "role": "inner right signal bar",
+      "fill": "softNickel"
+    },
+    {
+      "id": "iOuterLeft",
+      "role": "outer left signal rail",
+      "fill": "stone"
+    },
+    {
+      "id": "iOuterRight",
+      "role": "outer right signal rail",
+      "fill": "stone"
+    }
+  ],
+  "keyframes": [
+    {
+      "name": "kiLock",
+      "t": 0,
+      "label": "0ms KI lock",
+      "bars": {
+        "kSpine": {
+          "x": 42,
+          "y": 54,
+          "w": 20,
+          "h": 112,
+          "r": 0,
+          "opacity": 1
+        },
+        "kBridge": {
+          "x": 59,
+          "y": 98,
+          "w": 28,
+          "h": 22,
+          "r": 0,
+          "opacity": 1
+        },
+        "kUpper": {
+          "x": 78,
+          "y": 44,
+          "w": 19,
+          "h": 80,
+          "r": 46,
+          "opacity": 1
+        },
+        "kLower": {
+          "x": 78,
+          "y": 96,
+          "w": 19,
+          "h": 80,
+          "r": -46,
+          "opacity": 1
+        },
+        "iCore": {
+          "x": 153,
+          "y": 62,
+          "w": 18,
+          "h": 96,
+          "r": 0,
+          "opacity": 1
+        },
+        "iLeft": {
+          "x": 135,
+          "y": 90,
+          "w": 10,
+          "h": 40,
+          "r": 0,
+          "opacity": 0.22
+        },
+        "iRight": {
+          "x": 179,
+          "y": 90,
+          "w": 10,
+          "h": 40,
+          "r": 0,
+          "opacity": 0.22
+        },
+        "iOuterLeft": {
+          "x": 123,
+          "y": 99,
+          "w": 9,
+          "h": 22,
+          "r": 0,
+          "opacity": 0
+        },
+        "iOuterRight": {
+          "x": 192,
+          "y": 99,
+          "w": 9,
+          "h": 22,
+          "r": 0,
+          "opacity": 0
+        }
+      }
+    },
+    {
+      "name": "iBreath",
+      "t": 0.18,
+      "label": "290ms I breath",
+      "bars": {
+        "kSpine": {
+          "x": 42,
+          "y": 54,
+          "w": 20,
+          "h": 112,
+          "r": 0,
+          "opacity": 1
+        },
+        "kBridge": {
+          "x": 59,
+          "y": 98,
+          "w": 28,
+          "h": 22,
+          "r": 0,
+          "opacity": 1
+        },
+        "kUpper": {
+          "x": 78,
+          "y": 44,
+          "w": 19,
+          "h": 80,
+          "r": 46,
+          "opacity": 1
+        },
+        "kLower": {
+          "x": 78,
+          "y": 96,
+          "w": 19,
+          "h": 80,
+          "r": -46,
+          "opacity": 1
+        },
+        "iCore": {
+          "x": 153,
+          "y": 52,
+          "w": 18,
+          "h": 116,
+          "r": 0,
+          "opacity": 1
+        },
+        "iLeft": {
+          "x": 135,
+          "y": 78,
+          "w": 11,
+          "h": 64,
+          "r": 0,
+          "opacity": 0.52
+        },
+        "iRight": {
+          "x": 178,
+          "y": 78,
+          "w": 11,
+          "h": 64,
+          "r": 0,
+          "opacity": 0.52
+        },
+        "iOuterLeft": {
+          "x": 121,
+          "y": 94,
+          "w": 9,
+          "h": 32,
+          "r": 0,
+          "opacity": 0.22
+        },
+        "iOuterRight": {
+          "x": 194,
+          "y": 94,
+          "w": 9,
+          "h": 32,
+          "r": 0,
+          "opacity": 0.22
+        }
+      }
+    },
+    {
+      "name": "signalOpens",
+      "t": 0.36,
+      "label": "580ms signal opens",
+      "bars": {
+        "kSpine": {
+          "x": 42,
+          "y": 54,
+          "w": 20,
+          "h": 112,
+          "r": 0,
+          "opacity": 1
+        },
+        "kBridge": {
+          "x": 59,
+          "y": 98,
+          "w": 28,
+          "h": 22,
+          "r": 0,
+          "opacity": 1
+        },
+        "kUpper": {
+          "x": 78,
+          "y": 44,
+          "w": 19,
+          "h": 80,
+          "r": 46,
+          "opacity": 1
+        },
+        "kLower": {
+          "x": 78,
+          "y": 96,
+          "w": 19,
+          "h": 80,
+          "r": -46,
+          "opacity": 1
+        },
+        "iCore": {
+          "x": 154,
+          "y": 70,
+          "w": 16,
+          "h": 80,
+          "r": 0,
+          "opacity": 1
+        },
+        "iLeft": {
+          "x": 134,
+          "y": 65,
+          "w": 12,
+          "h": 90,
+          "r": 0,
+          "opacity": 0.78
+        },
+        "iRight": {
+          "x": 178,
+          "y": 65,
+          "w": 12,
+          "h": 90,
+          "r": 0,
+          "opacity": 0.78
+        },
+        "iOuterLeft": {
+          "x": 118,
+          "y": 84,
+          "w": 10,
+          "h": 52,
+          "r": 0,
+          "opacity": 0.42
+        },
+        "iOuterRight": {
+          "x": 196,
+          "y": 84,
+          "w": 10,
+          "h": 52,
+          "r": 0,
+          "opacity": 0.42
+        }
+      }
+    },
+    {
+      "name": "voiceField",
+      "t": 0.58,
+      "label": "930ms voice field",
+      "bars": {
+        "kSpine": {
+          "x": 42,
+          "y": 54,
+          "w": 20,
+          "h": 112,
+          "r": 0,
+          "opacity": 1
+        },
+        "kBridge": {
+          "x": 59,
+          "y": 98,
+          "w": 28,
+          "h": 22,
+          "r": 0,
+          "opacity": 1
+        },
+        "kUpper": {
+          "x": 78,
+          "y": 44,
+          "w": 19,
+          "h": 80,
+          "r": 46,
+          "opacity": 1
+        },
+        "kLower": {
+          "x": 78,
+          "y": 96,
+          "w": 19,
+          "h": 80,
+          "r": -46,
+          "opacity": 1
+        },
+        "iCore": {
+          "x": 154,
+          "y": 48,
+          "w": 16,
+          "h": 124,
+          "r": 0,
+          "opacity": 1
+        },
+        "iLeft": {
+          "x": 134,
+          "y": 78,
+          "w": 12,
+          "h": 64,
+          "r": 0,
+          "opacity": 0.82
+        },
+        "iRight": {
+          "x": 178,
+          "y": 78,
+          "w": 12,
+          "h": 64,
+          "r": 0,
+          "opacity": 0.82
+        },
+        "iOuterLeft": {
+          "x": 118,
+          "y": 58,
+          "w": 10,
+          "h": 104,
+          "r": 0,
+          "opacity": 0.58
+        },
+        "iOuterRight": {
+          "x": 196,
+          "y": 58,
+          "w": 10,
+          "h": 104,
+          "r": 0,
+          "opacity": 0.58
+        }
+      }
+    },
+    {
+      "name": "kiSignalHold",
+      "t": 0.76,
+      "label": "1220ms KI signal",
+      "bars": {
+        "kSpine": {
+          "x": 42,
+          "y": 54,
+          "w": 20,
+          "h": 112,
+          "r": 0,
+          "opacity": 1
+        },
+        "kBridge": {
+          "x": 59,
+          "y": 98,
+          "w": 28,
+          "h": 22,
+          "r": 0,
+          "opacity": 1
+        },
+        "kUpper": {
+          "x": 78,
+          "y": 44,
+          "w": 19,
+          "h": 80,
+          "r": 46,
+          "opacity": 1
+        },
+        "kLower": {
+          "x": 78,
+          "y": 96,
+          "w": 19,
+          "h": 80,
+          "r": -46,
+          "opacity": 1
+        },
+        "iCore": {
+          "x": 153,
+          "y": 58,
+          "w": 18,
+          "h": 104,
+          "r": 0,
+          "opacity": 1
+        },
+        "iLeft": {
+          "x": 136,
+          "y": 88,
+          "w": 10,
+          "h": 44,
+          "r": 0,
+          "opacity": 0.64
+        },
+        "iRight": {
+          "x": 178,
+          "y": 88,
+          "w": 10,
+          "h": 44,
+          "r": 0,
+          "opacity": 0.64
+        },
+        "iOuterLeft": {
+          "x": 121,
+          "y": 74,
+          "w": 9,
+          "h": 72,
+          "r": 0,
+          "opacity": 0.34
+        },
+        "iOuterRight": {
+          "x": 194,
+          "y": 74,
+          "w": 9,
+          "h": 72,
+          "r": 0,
+          "opacity": 0.34
+        }
+      }
+    },
+    {
+      "name": "returnLock",
+      "t": 1,
+      "label": "1600ms KI lock",
+      "bars": {
+        "kSpine": {
+          "x": 42,
+          "y": 54,
+          "w": 20,
+          "h": 112,
+          "r": 0,
+          "opacity": 1
+        },
+        "kBridge": {
+          "x": 59,
+          "y": 98,
+          "w": 28,
+          "h": 22,
+          "r": 0,
+          "opacity": 1
+        },
+        "kUpper": {
+          "x": 78,
+          "y": 44,
+          "w": 19,
+          "h": 80,
+          "r": 46,
+          "opacity": 1
+        },
+        "kLower": {
+          "x": 78,
+          "y": 96,
+          "w": 19,
+          "h": 80,
+          "r": -46,
+          "opacity": 1
+        },
+        "iCore": {
+          "x": 153,
+          "y": 62,
+          "w": 18,
+          "h": 96,
+          "r": 0,
+          "opacity": 1
+        },
+        "iLeft": {
+          "x": 135,
+          "y": 90,
+          "w": 10,
+          "h": 40,
+          "r": 0,
+          "opacity": 0.22
+        },
+        "iRight": {
+          "x": 179,
+          "y": 90,
+          "w": 10,
+          "h": 40,
+          "r": 0,
+          "opacity": 0.22
+        },
+        "iOuterLeft": {
+          "x": 123,
+          "y": 99,
+          "w": 9,
+          "h": 22,
+          "r": 0,
+          "opacity": 0
+        },
+        "iOuterRight": {
+          "x": 192,
+          "y": 99,
+          "w": 9,
+          "h": 22,
+          "r": 0,
+          "opacity": 0
+        }
+      }
+    }
+  ]
+}

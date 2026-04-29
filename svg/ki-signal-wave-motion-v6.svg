@@ -1,0 +1,121 @@
+<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="clip-state"><rect width="160" height="160" rx="34"/></clipPath>
+  </defs>
+  <rect width="1200" height="660" fill="#F4EFE6"/>
+  <text x="70" y="70" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="780" letter-spacing="4">KUNO</text>
+  <text x="70" y="106" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="650" letter-spacing="2.6">KI SIGNAL WAVE MOTION V6</text>
+  <text x="70" y="140" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17" font-weight="500">K stays fixed. The I from Kuno Intelligence opens into a compact sound-wave field during capture.</text>
+
+  <g transform="translate(70 195)">
+    <text x="0" y="-36" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="700" letter-spacing="2.4">EDITABLE MOTION STATES</text>
+
+    <g transform="translate(0 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="30.55" y="39.27" width="14.55" height="81.45" rx="7.27" fill="#F4EFE6" opacity="1"/>
+      <rect x="42.91" y="71.27" width="20.36" height="16.00" rx="10.18" fill="#F4EFE6" opacity="1"/>
+      <rect x="56.73" y="32.00" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(46 63.64 61.09)"/>
+      <rect x="56.73" y="69.82" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(-46 63.64 98.91)"/>
+      <rect x="111.27" y="45.09" width="13.09" height="69.82" rx="6.55" fill="#F4EFE6" opacity="1"/>
+      <rect x="98.18" y="65.45" width="7.27" height="29.09" rx="3.64" fill="#A7A19A" opacity="0.22"/>
+      <rect x="130.18" y="65.45" width="7.27" height="29.09" rx="3.64" fill="#A7A19A" opacity="0.22"/>
+      <rect x="89.45" y="72.00" width="6.55" height="16.00" rx="3.27" fill="#7A736A" opacity="0"/>
+      <rect x="139.64" y="72.00" width="6.55" height="16.00" rx="3.27" fill="#7A736A" opacity="0"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">0ms KI lock</text>
+    </g>
+
+    <g transform="translate(190 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="30.55" y="39.27" width="14.55" height="81.45" rx="7.27" fill="#F4EFE6" opacity="1"/>
+      <rect x="42.91" y="71.27" width="20.36" height="16.00" rx="10.18" fill="#F4EFE6" opacity="1"/>
+      <rect x="56.73" y="32.00" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(46 63.64 61.09)"/>
+      <rect x="56.73" y="69.82" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(-46 63.64 98.91)"/>
+      <rect x="111.27" y="37.82" width="13.09" height="84.36" rx="6.55" fill="#F4EFE6" opacity="1"/>
+      <rect x="98.18" y="56.73" width="8.00" height="46.55" rx="4.00" fill="#A7A19A" opacity="0.52"/>
+      <rect x="129.45" y="56.73" width="8.00" height="46.55" rx="4.00" fill="#A7A19A" opacity="0.52"/>
+      <rect x="88.00" y="68.36" width="6.55" height="23.27" rx="3.27" fill="#7A736A" opacity="0.22"/>
+      <rect x="141.09" y="68.36" width="6.55" height="23.27" rx="3.27" fill="#7A736A" opacity="0.22"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">290ms I breath</text>
+    </g>
+
+    <g transform="translate(380 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="30.55" y="39.27" width="14.55" height="81.45" rx="7.27" fill="#F4EFE6" opacity="1"/>
+      <rect x="42.91" y="71.27" width="20.36" height="16.00" rx="10.18" fill="#F4EFE6" opacity="1"/>
+      <rect x="56.73" y="32.00" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(46 63.64 61.09)"/>
+      <rect x="56.73" y="69.82" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(-46 63.64 98.91)"/>
+      <rect x="112.00" y="50.91" width="11.64" height="58.18" rx="5.82" fill="#F4EFE6" opacity="1"/>
+      <rect x="97.45" y="47.27" width="8.73" height="65.45" rx="4.36" fill="#A7A19A" opacity="0.78"/>
+      <rect x="129.45" y="47.27" width="8.73" height="65.45" rx="4.36" fill="#A7A19A" opacity="0.78"/>
+      <rect x="85.82" y="61.09" width="7.27" height="37.82" rx="3.64" fill="#7A736A" opacity="0.42"/>
+      <rect x="142.55" y="61.09" width="7.27" height="37.82" rx="3.64" fill="#7A736A" opacity="0.42"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">580ms signal opens</text>
+    </g>
+
+    <g transform="translate(570 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="30.55" y="39.27" width="14.55" height="81.45" rx="7.27" fill="#F4EFE6" opacity="1"/>
+      <rect x="42.91" y="71.27" width="20.36" height="16.00" rx="10.18" fill="#F4EFE6" opacity="1"/>
+      <rect x="56.73" y="32.00" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(46 63.64 61.09)"/>
+      <rect x="56.73" y="69.82" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(-46 63.64 98.91)"/>
+      <rect x="112.00" y="34.91" width="11.64" height="90.18" rx="5.82" fill="#F4EFE6" opacity="1"/>
+      <rect x="97.45" y="56.73" width="8.73" height="46.55" rx="4.36" fill="#A7A19A" opacity="0.82"/>
+      <rect x="129.45" y="56.73" width="8.73" height="46.55" rx="4.36" fill="#A7A19A" opacity="0.82"/>
+      <rect x="85.82" y="42.18" width="7.27" height="75.64" rx="3.64" fill="#7A736A" opacity="0.58"/>
+      <rect x="142.55" y="42.18" width="7.27" height="75.64" rx="3.64" fill="#7A736A" opacity="0.58"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">930ms voice field</text>
+    </g>
+
+    <g transform="translate(760 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="30.55" y="39.27" width="14.55" height="81.45" rx="7.27" fill="#F4EFE6" opacity="1"/>
+      <rect x="42.91" y="71.27" width="20.36" height="16.00" rx="10.18" fill="#F4EFE6" opacity="1"/>
+      <rect x="56.73" y="32.00" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(46 63.64 61.09)"/>
+      <rect x="56.73" y="69.82" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(-46 63.64 98.91)"/>
+      <rect x="111.27" y="42.18" width="13.09" height="75.64" rx="6.55" fill="#F4EFE6" opacity="1"/>
+      <rect x="98.91" y="64.00" width="7.27" height="32.00" rx="3.64" fill="#A7A19A" opacity="0.64"/>
+      <rect x="129.45" y="64.00" width="7.27" height="32.00" rx="3.64" fill="#A7A19A" opacity="0.64"/>
+      <rect x="88.00" y="53.82" width="6.55" height="52.36" rx="3.27" fill="#7A736A" opacity="0.34"/>
+      <rect x="141.09" y="53.82" width="6.55" height="52.36" rx="3.27" fill="#7A736A" opacity="0.34"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">1220ms KI signal</text>
+    </g>
+
+    <g transform="translate(950 0)">
+      <rect width="160" height="160" rx="34" fill="#1C1A17"/>
+      <g clip-path="url(#clip-state)">
+      <rect x="30.55" y="39.27" width="14.55" height="81.45" rx="7.27" fill="#F4EFE6" opacity="1"/>
+      <rect x="42.91" y="71.27" width="20.36" height="16.00" rx="10.18" fill="#F4EFE6" opacity="1"/>
+      <rect x="56.73" y="32.00" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(46 63.64 61.09)"/>
+      <rect x="56.73" y="69.82" width="13.82" height="58.18" rx="6.91" fill="#F4EFE6" opacity="1" transform="rotate(-46 63.64 98.91)"/>
+      <rect x="111.27" y="45.09" width="13.09" height="69.82" rx="6.55" fill="#F4EFE6" opacity="1"/>
+      <rect x="98.18" y="65.45" width="7.27" height="29.09" rx="3.64" fill="#A7A19A" opacity="0.22"/>
+      <rect x="130.18" y="65.45" width="7.27" height="29.09" rx="3.64" fill="#A7A19A" opacity="0.22"/>
+      <rect x="89.45" y="72.00" width="6.55" height="16.00" rx="3.27" fill="#7A736A" opacity="0"/>
+      <rect x="139.64" y="72.00" width="6.55" height="16.00" rx="3.27" fill="#7A736A" opacity="0"/>
+      </g>
+      <text x="0" y="194" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" font-weight="550">1600ms KI lock</text>
+    </g>
+  </g>
+
+  <g transform="translate(70 485)">
+    <rect x="0" y="0" width="510" height="86" rx="16" fill="#E6DFD2"/>
+    <text x="26" y="35" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="720">Stable K</text>
+    <text x="26" y="62" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500">The brand mark does not need to be solved by the animation.</text>
+  </g>
+
+  <g transform="translate(610 485)">
+    <rect x="0" y="0" width="520" height="86" rx="16" fill="#E6DFD2"/>
+    <text x="26" y="35" fill="#1C1A17" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" font-weight="720">Animated I</text>
+    <text x="26" y="62" fill="#7A736A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="500">The I carries the sound-wave behavior and returns to KI at rest.</text>
+  </g>
+</svg>
