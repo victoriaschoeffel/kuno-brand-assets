@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kuno Signal K Motion v2</title>
+  <style>
+    :root {
+      --paper: #F4EFE6;
+      --ink: #1C1A17;
+      --quiet: #E6DFD2;
+      --stone: #7A736A;
+      --champagne: #D4C39D;
+      --nickel: #A7A19A;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      width: min(1120px, calc(100vw - 48px));
+      min-height: min(720px, calc(100vh - 48px));
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 28px;
+    }
+
+    header,
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      color: var(--stone);
+      font-size: 12px;
+      font-weight: 650;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+
+    .wordmark {
+      color: var(--ink);
+      font-size: 28px;
+      font-weight: 820;
+      letter-spacing: 5px;
+    }
+
+    .stage {
+      border-radius: 28px;
+      background: var(--quiet);
+      display: grid;
+      grid-template-columns: minmax(280px, 0.85fr) minmax(360px, 1fr);
+      align-items: center;
+      gap: 56px;
+      padding: clamp(32px, 6vw, 76px);
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 560px;
+      font-size: clamp(48px, 7vw, 88px);
+      line-height: 0.96;
+      letter-spacing: -1px;
+      font-weight: 780;
+    }
+
+    p {
+      margin: 22px 0 0;
+      max-width: 430px;
+      font-size: 17px;
+      line-height: 1.45;
+      color: var(--stone);
+      font-weight: 500;
+    }
+
+    .demo {
+      aspect-ratio: 1;
+      width: min(390px, 100%);
+      justify-self: center;
+      border-radius: 76px;
+      background: var(--ink);
+      position: relative;
+      box-shadow: 0 34px 70px rgba(28, 26, 23, 0.14);
+    }
+
+    .bar {
+      position: absolute;
+      border-radius: 999px;
+      transform-origin: center;
+      animation-duration: 1.6s;
+      animation-timing-function: cubic-bezier(.2, .72, .2, 1);
+      animation-iteration-count: infinite;
+      will-change: transform;
+    }
+
+    .spine {
+      left: 94px;
+      top: 84px;
+      width: 40px;
+      height: 222px;
+      background: var(--paper);
+    }
+
+    .core {
+      left: 160px;
+      top: 140px;
+      width: 30px;
+      height: 110px;
+      background: var(--champagne);
+      animation-name: core;
+    }
+
+    .mid-top,
+    .mid-bottom {
+      left: 222px;
+      width: 30px;
+      height: 82px;
+      background: var(--paper);
+    }
+
+    .tip-top,
+    .tip-bottom {
+      left: 284px;
+      width: 30px;
+      height: 56px;
+      background: var(--nickel);
+    }
+
+    .mid-top {
+      top: 116px;
+      animation-name: midTop;
+    }
+
+    .mid-bottom {
+      top: 192px;
+      animation-name: midBottom;
+    }
+
+    .tip-top {
+      top: 140px;
+      animation-name: tipTop;
+      animation-delay: .04s;
+    }
+
+    .tip-bottom {
+      top: 194px;
+      animation-name: tipBottom;
+      animation-delay: .04s;
+    }
+
+    .label {
+      position: absolute;
+      left: 50%;
+      bottom: -58px;
+      transform: translateX(-50%);
+      color: var(--stone);
+      font-size: 13px;
+      font-weight: 650;
+      letter-spacing: .4px;
+      white-space: nowrap;
+    }
+
+    @keyframes core {
+      0%, 18%, 100% { transform: scaleY(.66); }
+      46% { transform: scaleY(.9); }
+      70% { transform: scaleY(.74); }
+    }
+
+    @keyframes midTop {
+      0%, 18%, 100% { transform: translateY(38px) scaleY(1.22); }
+      46% { transform: translateY(-26px) scaleY(.72); }
+      70% { transform: translateY(-8px) scaleY(.88); }
+    }
+
+    @keyframes midBottom {
+      0%, 18%, 100% { transform: translateY(-38px) scaleY(1.22); }
+      46% { transform: translateY(26px) scaleY(.72); }
+      70% { transform: translateY(8px) scaleY(.88); }
+    }
+
+    @keyframes tipTop {
+      0%, 18%, 100% { transform: translateY(27px) scaleY(1.12); }
+      46% { transform: translateY(-48px) scaleY(.64); }
+      70% { transform: translateY(-18px) scaleY(.82); }
+    }
+
+    @keyframes tipBottom {
+      0%, 18%, 100% { transform: translateY(-27px) scaleY(1.12); }
+      46% { transform: translateY(48px) scaleY(.64); }
+      70% { transform: translateY(18px) scaleY(.82); }
+    }
+
+    .stage:hover .bar {
+      animation-play-state: paused;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: calc(100vw - 32px);
+        gap: 20px;
+      }
+
+      header,
+      footer {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      .stage {
+        grid-template-columns: 1fr;
+        gap: 56px;
+        padding: 32px 24px 76px;
+      }
+
+      .demo {
+        width: min(310px, 100%);
+        border-radius: 58px;
+      }
+
+      .spine {
+        left: 75px;
+        top: 67px;
+        width: 32px;
+        height: 176px;
+      }
+
+      .core {
+        left: 127px;
+        top: 111px;
+        width: 24px;
+        height: 88px;
+      }
+
+      .mid-top,
+      .mid-bottom {
+        left: 176px;
+        width: 24px;
+        height: 66px;
+      }
+
+      .tip-top,
+      .tip-bottom {
+        left: 225px;
+        width: 24px;
+        height: 44px;
+      }
+
+      .mid-top { top: 92px; }
+      .mid-bottom { top: 152px; }
+      .tip-top { top: 112px; }
+      .tip-bottom { top: 155px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .bar { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="wordmark">KUNO</div>
+      <div>Signal K Motion v2</div>
+    </header>
+
+    <section class="stage" aria-label="Kuno Signal K v2 recording-state motion preview">
+      <div>
+        <h1>Signal first. K in motion.</h1>
+        <p>The static icon is a clean signal cluster. During capture, the bars separate into a K-like motion state and return.</p>
+      </div>
+
+      <div class="demo" role="img" aria-label="Animated signal bars resolving into a K during recording">
+        <div class="bar spine"></div>
+        <div class="bar core"></div>
+        <div class="bar mid-top"></div>
+        <div class="bar mid-bottom"></div>
+        <div class="bar tip-top"></div>
+        <div class="bar tip-bottom"></div>
+        <div class="label">Hover to pause</div>
+      </div>
+    </section>
+
+    <footer>
+      <div>Static App Store mark stays simple</div>
+      <div>1.6s capture-state reveal · no decorative loop outside recording</div>
+    </footer>
+  </main>
+</body>
+</html>
