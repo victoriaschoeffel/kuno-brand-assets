@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1080" width="1200" height="1080">
+  <defs>
+    <style>
+      text { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .label { font-size: 11px; font-weight: 650; letter-spacing: 1.4px; fill: #7A736A; }
+      .body { font-size: 13px; font-weight: 450; fill: #1C1A17; }
+      .small { font-size: 10px; font-weight: 550; letter-spacing: 1px; fill: #7A736A; }
+      .title { font-size: 14px; font-weight: 650; letter-spacing: 2px; fill: #7A736A; }
+    </style>
+
+    <symbol id="h-solid" viewBox="0 0 160 160">
+      <rect x="0" y="0" width="160" height="160" rx="32" fill="#1C1A17"/>
+      <text x="80" y="66" font-size="42" font-weight="850" letter-spacing="4" fill="#F4EFE6" text-anchor="middle">KU</text>
+      <line x1="55" y1="80" x2="105" y2="80" stroke="#B8945A" stroke-width="3" stroke-linecap="round"/>
+      <text x="80" y="125" font-size="42" font-weight="850" letter-spacing="4" fill="#F4EFE6" text-anchor="middle">NO</text>
+    </symbol>
+
+    <symbol id="h-paper" viewBox="0 0 160 160">
+      <rect x="0" y="0" width="160" height="160" rx="32" fill="#F4EFE6" stroke="#1C1A17" stroke-width="3"/>
+      <text x="80" y="66" font-size="41" font-weight="850" letter-spacing="4" fill="#1C1A17" text-anchor="middle">KU</text>
+      <line x1="55" y1="80" x2="105" y2="80" stroke="#B8945A" stroke-width="3" stroke-linecap="round"/>
+      <text x="80" y="125" font-size="41" font-weight="850" letter-spacing="4" fill="#1C1A17" text-anchor="middle">NO</text>
+    </symbol>
+
+    <symbol id="h-foil" viewBox="0 0 160 160">
+      <rect x="0" y="0" width="160" height="160" rx="32" fill="#1C1A17"/>
+      <text x="80" y="66" font-size="40" font-weight="800" letter-spacing="5" fill="#B8945A" text-anchor="middle">KU</text>
+      <line x1="58" y1="80" x2="102" y2="80" stroke="#E6DFD2" stroke-width="2" stroke-linecap="round"/>
+      <text x="80" y="124" font-size="40" font-weight="800" letter-spacing="5" fill="#B8945A" text-anchor="middle">NO</text>
+    </symbol>
+
+    <symbol id="k-solid" viewBox="0 0 160 160">
+      <rect x="0" y="0" width="160" height="160" rx="32" fill="#1C1A17"/>
+      <circle cx="80" cy="80" r="59" fill="none" stroke="#B8945A" stroke-width="4"/>
+      <circle cx="80" cy="80" r="38" fill="#F4EFE6"/>
+      <text x="80" y="108" font-size="76" font-weight="850" fill="#1C1A17" text-anchor="middle">K</text>
+    </symbol>
+
+    <symbol id="k-paper" viewBox="0 0 160 160">
+      <rect x="0" y="0" width="160" height="160" rx="32" fill="#F4EFE6" stroke="#1C1A17" stroke-width="3"/>
+      <circle cx="80" cy="80" r="59" fill="#E6DFD2" stroke="#B8945A" stroke-width="3"/>
+      <circle cx="80" cy="80" r="34" fill="#F4EFE6"/>
+      <text x="80" y="106" font-size="72" font-weight="850" fill="#1C1A17" text-anchor="middle">K</text>
+    </symbol>
+
+    <symbol id="k-foil" viewBox="0 0 160 160">
+      <rect x="0" y="0" width="160" height="160" rx="32" fill="#1C1A17"/>
+      <circle cx="80" cy="80" r="59" fill="none" stroke="#E6DFD2" stroke-width="2"/>
+      <circle cx="80" cy="80" r="39" fill="none" stroke="#B8945A" stroke-width="4"/>
+      <text x="80" y="107" font-size="76" font-weight="800" fill="#B8945A" text-anchor="middle">K</text>
+    </symbol>
+
+    <symbol id="m-solid" viewBox="0 0 160 160">
+      <circle cx="80" cy="80" r="76" fill="#1C1A17"/>
+      <circle cx="80" cy="80" r="58" fill="none" stroke="#B8945A" stroke-width="3"/>
+      <text x="80" y="109" font-size="82" font-weight="850" fill="#F4EFE6" text-anchor="middle">K</text>
+    </symbol>
+
+    <symbol id="m-paper" viewBox="0 0 160 160">
+      <circle cx="80" cy="80" r="76" fill="#F4EFE6" stroke="#1C1A17" stroke-width="3"/>
+      <circle cx="80" cy="80" r="57" fill="none" stroke="#B8945A" stroke-width="3"/>
+      <text x="80" y="108" font-size="80" font-weight="850" fill="#1C1A17" text-anchor="middle">K</text>
+    </symbol>
+
+    <symbol id="m-foil" viewBox="0 0 160 160">
+      <circle cx="80" cy="80" r="76" fill="#1C1A17"/>
+      <circle cx="80" cy="80" r="60" fill="none" stroke="#B8945A" stroke-width="2"/>
+      <circle cx="80" cy="80" r="47" fill="none" stroke="#7A736A" stroke-width="1.5"/>
+      <text x="80" y="107" font-size="78" font-weight="800" fill="#B8945A" text-anchor="middle">K</text>
+      <text x="80" y="135" font-size="13" font-weight="650" letter-spacing="3" fill="#B8945A" text-anchor="middle">KUNO</text>
+    </symbol>
+  </defs>
+
+  <rect width="1200" height="1080" fill="#F4EFE6"/>
+  <text x="48" y="44" class="title">KUNO - ICON OPTIONS v4 - SCALE FITNESS</text>
+  <text x="48" y="70" class="body">Focused pass on H stacked KU/NO, K Kuno-button, and M wax seal. Master palette only; recording red stays reserved for live recording UI.</text>
+
+  <text x="250" y="112" class="small" text-anchor="middle">INK SOLID</text>
+  <text x="420" y="112" class="small" text-anchor="middle">PAPER DEBOSS</text>
+  <text x="590" y="112" class="small" text-anchor="middle">FOIL SEAL</text>
+  <text x="820" y="112" class="small">FITNESS READ</text>
+
+  <g transform="translate(48,138)">
+    <text x="0" y="24" class="label">H - STACKED KU/NO</text>
+    <text x="0" y="50" class="body">Ownable at packaging scale.</text>
+    <text x="0" y="70" class="body">Weakest at favicon size.</text>
+    <g transform="translate(190,0)"><use href="#h-solid" width="124" height="124"/></g>
+    <g transform="translate(360,0)"><use href="#h-paper" width="124" height="124"/></g>
+    <g transform="translate(530,0)"><use href="#h-foil" width="124" height="124"/></g>
+    <rect x="760" y="0" width="360" height="124" rx="12" fill="#E6DFD2"/>
+    <text x="784" y="34" class="body">Packaging and social only.</text>
+    <text x="784" y="58" class="body">Not the primary favicon.</text>
+    <text x="784" y="90" class="small">KU/NO becomes texture below 32px.</text>
+  </g>
+
+  <g transform="translate(48,318)">
+    <text x="0" y="24" class="label">K - KUNO BUTTON</text>
+    <text x="0" y="50" class="body">Hardware-direct cue.</text>
+    <text x="0" y="70" class="body">Legible K at every size.</text>
+    <g transform="translate(190,0)"><use href="#k-solid" width="124" height="124"/></g>
+    <g transform="translate(360,0)"><use href="#k-paper" width="124" height="124"/></g>
+    <g transform="translate(530,0)"><use href="#k-foil" width="124" height="124"/></g>
+    <rect x="760" y="0" width="360" height="124" rx="12" fill="#E6DFD2"/>
+    <text x="784" y="34" class="body">Best primary app-icon candidate.</text>
+    <text x="784" y="58" class="body">Brand letter plus device action.</text>
+    <text x="784" y="90" class="small">Test K solid against v1 B.</text>
+  </g>
+
+  <g transform="translate(48,498)">
+    <text x="0" y="24" class="label">M - WAX SEAL</text>
+    <text x="0" y="50" class="body">European and editorial.</text>
+    <text x="0" y="70" class="body">Fischer-adjacent stamp.</text>
+    <g transform="translate(190,0)"><use href="#m-solid" width="124" height="124"/></g>
+    <g transform="translate(360,0)"><use href="#m-paper" width="124" height="124"/></g>
+    <g transform="translate(530,0)"><use href="#m-foil" width="124" height="124"/></g>
+    <rect x="760" y="0" width="360" height="124" rx="12" fill="#E6DFD2"/>
+    <text x="784" y="34" class="body">Strong for packaging and inserts.</text>
+    <text x="784" y="58" class="body">Round and ceremonial.</text>
+    <text x="784" y="90" class="small">Edition stamp, not master app icon.</text>
+  </g>
+
+  <line x1="48" y1="670" x2="1152" y2="670" stroke="#E6DFD2" stroke-width="2"/>
+  <text x="48" y="710" class="title">ACTUAL-SIZE CHECKS</text>
+  <text x="48" y="736" class="body">The small symbols below are rendered at real 64px, 32px, and 16px sizes inside their cells. Do not judge the 16px mark from an enlarged mockup.</text>
+
+  <g transform="translate(48,770)">
+    <text x="0" y="38" class="label">H PAPER</text>
+    <rect x="170" y="0" width="110" height="90" rx="10" fill="#E6DFD2"/>
+    <use href="#h-paper" x="193" y="13" width="64" height="64"/>
+    <rect x="320" y="0" width="110" height="90" rx="10" fill="#E6DFD2"/>
+    <use href="#h-paper" x="359" y="29" width="32" height="32"/>
+    <rect x="470" y="0" width="110" height="90" rx="10" fill="#E6DFD2"/>
+    <use href="#h-paper" x="517" y="37" width="16" height="16"/>
+    <text x="640" y="30" class="body">Passes social. Fails favicon readability.</text>
+    <text x="640" y="58" class="small">Role: packaging stamp and launch editorial.</text>
+  </g>
+
+  <g transform="translate(48,870)">
+    <text x="0" y="38" class="label">K SOLID</text>
+    <rect x="170" y="0" width="110" height="90" rx="10" fill="#E6DFD2"/>
+    <use href="#k-solid" x="193" y="13" width="64" height="64"/>
+    <rect x="320" y="0" width="110" height="90" rx="10" fill="#E6DFD2"/>
+    <use href="#k-solid" x="359" y="29" width="32" height="32"/>
+    <rect x="470" y="0" width="110" height="90" rx="10" fill="#E6DFD2"/>
+    <use href="#k-solid" x="517" y="37" width="16" height="16"/>
+    <text x="640" y="30" class="body">Best small-size read. Holds at 16px.</text>
+    <text x="640" y="58" class="small">Role: app icon, favicon, social avatar.</text>
+  </g>
+
+  <g transform="translate(48,970)">
+    <text x="0" y="30" class="label">M FOIL</text>
+    <use href="#m-foil" x="194" y="-10" width="64" height="64"/>
+    <use href="#m-foil" x="360" y="6" width="32" height="32"/>
+    <use href="#m-foil" x="518" y="14" width="16" height="16"/>
+    <text x="640" y="24" class="body">Best as a ceremonial mark. Small text disappears.</text>
+    <text x="640" y="50" class="small">Role: Heidelberg insert, foil stamp, press kit seal.</text>
+  </g>
+</svg>
